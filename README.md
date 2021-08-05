@@ -5,7 +5,7 @@
 
 <h3 align="center">Presente!</h3>
 
-<div align="">
+<div align="center">
 
 [![python](https://img.shields.io/badge/Python-016c8c?style=f&logo=python&logoColor=green)](https://www.python.org/)
 [![python](https://img.shields.io/badge/Javascript-016c8c?style=f&logo=javascript&logoColor=yellow)](https://www.javascript.com/)
@@ -23,27 +23,27 @@
     <br> 
 </p>
 
-## 📝 Table of Contents
+## 📝 Índice
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
+- [Sobre](#about)
+- [Começando pelo começo](#getting_started)
+- [Deploy](#deployment)
+- [Uso](#usage)
+- [Recursos usados](#built_using)
 - [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+- [Contribua](../CONTRIBUTING.md)
+- [Autores](#authors)
+- [Agradecimentos](#acknowledgement)
 
-## 🧐 About <a name = "about"></a>
+## 🧐 Sobre <a name = "about"></a>
 
 *Digite o proposito do projeto aqui e uma breve descrição do funcionamento
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## 🏁 Começando pelo começo <a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### Pré-requisitos
 
 What things you need to install the software and how to install them.
 
@@ -55,7 +55,7 @@ What things you need to install the software and how to install them.
  * Capacitor
 ```
 
-### Installing
+### Instalação
 
 Para instalar o Node.js bastar baixa-lo através d link https://nodejs.org/en/
 
@@ -86,11 +86,11 @@ npm install @capacitor/cli --save-dev
 
 End with an example of getting some data out of the system or using it for a little demo.
 
-## 🔧 Running the tests <a name = "tests"></a>
+## 🔧 Rodando testes <a name = "tests"></a>
 
 Explain how to run the automated tests for this system.
 
-### Break down into end to end tests
+### Divida em testes de ponta a ponta
 
 Explain what these tests test and why
 
@@ -98,7 +98,7 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
+### Estilo de codificação para os testes
 
 Explain what these tests test and why
 
@@ -106,28 +106,28 @@ Explain what these tests test and why
 Give an example
 ```
 
-## 🎈 Usage <a name="usage"></a>
+## 🎈 Uso <a name="usage"></a>
 
 Add notes about how to use the system.
 
-## 🚀 Deployment <a name = "deployment"></a>
+## 🚀 Deploy <a name = "deployment"></a>
 
 Add additional notes about how to deploy this on a live system.
 
-## ⛏️ Built Using <a name = "built_using"></a>
+## ⛏️ Recursos usados <a name = "built_using"></a>
 
 - [MongoDB](https://www.mongodb.com/) - Database
 - [Express](https://expressjs.com/) - Server Framework
 - [VueJs](https://vuejs.org/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
-## ✍️ Authors <a name = "authors"></a>
+## ✍️ Autores <a name = "authors"></a>
 
 - [@sushila](https://github.com/kylelobo) - Idea & Initial work
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+- See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+## 🎉 Agradeciemntos <a name = "acknowledgement"></a>
 
 - Hat tip to anyone whose code was used
 - Inspiration
