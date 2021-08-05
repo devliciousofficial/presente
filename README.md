@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://raw.githubusercontent.com/elir0d/presente-app/main/src/assets/icon/giftbox.png?token=ALV5SY4B5VT4SUEGS5MZ3D3BBQXFM" alt="Project logo"></a>
+ <img width=200px height=200px src="https://raw.githubusercontent.com/devliciouofficial/assets/main/icons/presente.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Presente!</h3>
@@ -132,3 +132,4 @@ Add additional notes about how to deploy this on a live system.
 - Hat tip to anyone whose code was used
 - Inspiration
 - References
+- <a href="https://iconscout.com/icons/gift-box" target="_blank">Gift Box Flat Icon</a> by <a href="https://iconscout.com/contributors/bukeicon">Buke Icon</a> on <a href="https://iconscout.com">Iconscout</a>
