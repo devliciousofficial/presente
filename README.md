@@ -1,16 +1,19 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://raw.githubusercontent.com/elir0d/presente-app/main/src/assets/icon/giftbox.png?token=ALV5SY3XTPPMH3EXBFWP7JTBBQWBU" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Presente!</h3>
 
-<div align="center">
+<div align="">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![python](https://img.shields.io/badge/Python-016c8c?style=f&logo=python&logoColor=green)](https://www.python.org/)
+[![python](https://img.shields.io/badge/Javascript-016c8c?style=f&logo=javascript&logoColor=yellow)](https://www.javascript.com/)
+[![python](https://img.shields.io/badge/ionic-016c8c?style=f&logo=ionic&logoColor=blue)](https://www.javascript.com/)
+
+[![Status](https://img.shields.io/badge/Repo_status-WIP-orange?labelolor=black)](https://media.giphy.com/media/61XS37iBats8J3QLwF/giphy.gif)
+[![Open Source](https://badgen.net/badge/Open%20Source%20/Yes%21/green?icon=https://www.vectorlogo.zone/logos/opensource/opensource-icon.svg)](https://github.com/OpenSourceOrg)
+[![vscode](https://img.shields.io/badge/FOR_CODING-gray?style=flat&labelColor=gray&logo=visual-studio-code&logoColor=blue)](https://code.visualstudio.com/)
 
 </div>
 
@@ -120,7 +123,7 @@ Add additional notes about how to deploy this on a live system.
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@sushila](https://github.com/kylelobo) - Idea & Initial work
 
 See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
