@@ -127,7 +127,7 @@ Add additional notes about how to deploy this on a live system.
 
 - See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
-## 🎉 Agradeciemntos <a name = "acknowledgement"></a>
+## 🎉 Agradecimentos <a name = "acknowledgement"></a>
 
 - Hat tip to anyone whose code was used
 - Inspiration
