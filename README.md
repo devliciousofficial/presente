@@ -45,35 +45,30 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Pré-requisitos
 
-What things you need to install the software and how to install them.
+O que você precisa instalar e como instalá-los:
 
-```
  * Node.js
  * ionic CLI
- * Python 3.9
- * Django
  * Capacitor
-```
 
 ### Instalação
 
-Para instalar o Node.js bastar baixa-lo através d link https://nodejs.org/en/
-
-Após isso, você deve instalar o ionicframework usando os comando abaixo:
-
-```
-npm install -g @ionic/cli cordova-res
-```
+Para instalar o Node.js basta baixa-lo através do link https://nodejs.org/en/
 
 Clone o repostório com o comando abaixo:
 
 ```
-git clone https://github.com/elir0d/presente-app.git presente-app
+git clone https://github.com/devliciousofficial/presente.git
 ```
-Inicializando instalando o ionic em seu projeto:
+Após isso, você deve instalar o ionicframework usando os comando abaixo:
 
 ```
-cd presente && npm install && ionic serve
+npm install -g @ionic/cli
+```
+Se houver uma instalação anterior do Ionic CLI, ele precisará ser desinstalado devido a uma alteração no nome do pacote:
+```
+npm uninstall -g ionic
+npm install -g @ionic/cli
 ```
 
 
@@ -82,9 +77,10 @@ Para empacotar o aplicativo a fim de rodar em um dispositivo móvel, instale o C
 ```
 npm install @capacitor/core
 npm install @capacitor/cli --save-dev
+npm install -g @ionic/cli native-run cordova-res
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
+
 
 ## 🔧 Rodando testes <a name = "tests"></a>
 
@@ -108,18 +104,19 @@ Give an example
 
 ## 🎈 Uso <a name="usage"></a>
 
-Add notes about how to use the system.
+**Adicione aqui notas de como usar o sistema
 
 ## 🚀 Deploy <a name = "deployment"></a>
 
-Add additional notes about how to deploy this on a live system.
+**Adicione aqui instruções para deploy
 
 ## ⛏️ Recursos usados <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
+- [Firebase](https://firebase.google.com/) - Server/Database Framework
+- [Ionic](https://ionicframework.com/) - Web/Native Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Android Studio](https://developer.android.com) - Native Environment
+
 
 ## ✍️ Autores <a name = "authors"></a>
 
