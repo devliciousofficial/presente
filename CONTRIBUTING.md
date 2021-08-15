@@ -1,4 +1,4 @@
-# Contribuindo para "PRESENTE!"
+# Contribuindo para PRESENTE!
 Queremos tornar a contribuição para este projeto o mais fácil e transparente possível, seja:
 
 - Relatando um bug
@@ -8,9 +8,9 @@ Queremos tornar a contribuição para este projeto o mais fácil e transparente 
 - Tornando-se um mantenedor
 
 ## Desenvolvemos com Github
-Usamos o github para hospedar o código, rastrear problemas e solicitações de recursos, bem como aceitar solicitações de novos recursos.
+Usamos o github para hospedar o código, rastrear problemas, bem como aceitar solicitações de novos recursos.
 
-## Usamos [Github Flow](https://guides.github.com/introduction/flow/index.html), então todas as alterações de código acontecem por meio de pull request
+## Usamos [Github Flow](https://guides.github.com/introduction/flow/index.html), então todas as alterações de código acontecem por meio de pull requests.
 
 As pull requests são a melhor maneira de propor alterações na base de código (usamos [Github Flow](https://guides.github.com/introduction/flow/index.html)). Acolhemos ativamente suas solicitações de pull:
 
@@ -24,33 +24,33 @@ As pull requests são a melhor maneira de propor alterações na base de código
 ## Quaisquer contribuições que você fizer estarão sob a GNU General Public License v3.0
 Em suma, quando você envia alterações de código, seus envios são considerados sob a mesma [GNU General Public License v3.0](https://github.com/vanpyre/classic-pong/blob/main/LICENSE.MD) que cobre o projeto. Sinta-se à vontade para entrar em contato com os mantenedores se isso for uma preocupação.
 
-## Reportar bugs usando a aba [issues](https://github.com/<USER>/<REPOSITORY>/issueshttps://github.com/devliciousofficial/presente/issues) do github.
+## Reportar bugs usando a aba [Issues](https://github.com/elir0d/pratofeito/issues/) do github.
 
-Usamos o issues do GitHub para rastrear bugs e solicitar novos recursas. Relate um bug ou solicite um recurso [Criando uma Nova ISSUE](https://github.com/vanpyre/pratofeito/blob/standard/.github/ISSUE_TEMPLATE/bug_report_github.md).
+Usamos o issues do GitHub para rastrear bugs e solicitar novos recursas. Relate um bug ou solicite um recurso [criando um issue](https://github.com/elir0d/pratofeito/issues/new/choose).
 
-## Escreva relatórios de bug com detalhes, histórico e código de amostra
-[Este é um exemplo] (https://github.com/vanpyre/pratofeito/blob/standard/.github/ISSUE_TEMPLATE/bug_report_github.md) de um relatório de bug, e acho que não é um modelo ruim.
+## Escreva relatórios de bug com detalhes, histórico e exemplos.
+[Este é um exemplo](https://github.com/elir0d/pratofeito/blob/standard/.github/ISSUE_TEMPLATE/bug_report_github.md) de um relatório de bug, e acho que não é um modelo ruim.
 
 ** Ótimos relatórios de bug ** tendem a ter:
 
-- Um resumo rápido e / ou histórico
+- Um resumo rápido e/ou histórico
 - Passos para reproduzir
   - Seja específico!
   - Forneça o código de amostra, se puder.
 - O que você esperava que acontecesse
 - O que realmente acontece
-- Observações (possivelmente incluindo por que você acha que isso pode estar acontecendo ou coisas que você tentou que não funcionaram)
+- Observações (se necessário, inclua o por que você acha que isso pode estar acontecendo ou etapas que você tentou que não funcionaram)
 
-As pessoas * adoram * relatórios de bug completos. Eu nem estou brincando.
+As pessoas *adoram* relatórios de bug completinhos. É Sério! rsrsrs.
 
 ## Use um estilo de codificação consistente
-Estou pegando emprestado novamente as [diretrizes do Google] (https://google.github.io/styleguide/)
+Estou pegando emprestado as [diretrizes do Angular](https://angular.io/guide/styleguide)
 
-* 3 espaços para recuo em vez de tabulações
+* 3 espaços para recuo em vez de tabulações (você pode configurar sua IDE para tal)
 * Você pode tentar executar `npm run lint` para unificação de estilo
 
 ## Licença
-Ao contribuir, concorda que as suas contribuições serão licenciadas ao abrigo da [GNU General Public License v3.0] (https://www.gnu.org/licenses/gpl-3.0.pt-br.html).
+Ao contribuir, concorda que as suas contribuições serão licenciadas ao abrigo da [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.pt-br.html).
 
 ## Referências
-Este documento foi adaptado das diretrizes de contribuição de código aberto para [rascunho do Facebook] (https://github.com/facebook/draft-js/blob/master/CONTRIBUTING.md)
+Este documento foi adaptado das diretrizes de contribuição de código aberto para [rascunho do Facebook](https://github.com/facebook/draft-js/blob/master/CONTRIBUTING.md).
