@@ -24,12 +24,12 @@ As pull requests são a melhor maneira de propor alterações na base de código
 ## Quaisquer contribuições que você fizer estarão sob a GNU General Public License v3.0
 Em suma, quando você envia alterações de código, seus envios são considerados sob a mesma [GNU General Public License v3.0](https://github.com/vanpyre/classic-pong/blob/main/LICENSE.MD) que cobre o projeto. Sinta-se à vontade para entrar em contato com os mantenedores se isso for uma preocupação.
 
-## Reportar bugs usando a aba [Issues](https://github.com/elir0d/pratofeito/issues/) do github.
+## Reportar bugs usando a aba [Issues](https://github.com/devliciousofficial/presente/issues) do github.
 
-Usamos o issues do GitHub para rastrear bugs e solicitar novos recursas. Relate um bug ou solicite um recurso [criando um issue](https://github.com/elir0d/pratofeito/issues/new/choose).
+Usamos o issues do GitHub para rastrear bugs e solicitar novos recursas. Relate um bug ou solicite um recurso [criando um issue](https://github.com/devliciousofficial/presente/issues/new/choose).
 
 ## Escreva relatórios de bug com detalhes, histórico e exemplos.
-[Este é um exemplo](https://github.com/elir0d/pratofeito/blob/standard/.github/ISSUE_TEMPLATE/bug_report_github.md) de um relatório de bug, e acho que não é um modelo ruim.
+[Este é um exemplo](https://github.com/devliciousofficial/presente/blob/main/.github/ISSUE_TEMPLATE/bug_report_github.md) de um relatório de bug, e acho que não é um modelo ruim.
 
 ** Ótimos relatórios de bug ** tendem a ter:
 
