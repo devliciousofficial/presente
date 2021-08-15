@@ -7,41 +7,41 @@ assignees: ''
 
 ---
 
-**Descreva o bug**
-Uma descrição clara e concisa do que é o bug.
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-**Reproduzir**
-Passos para reproduzir o comportamento:
-1. Vá para '...'
-2. Clique em '....'
-3. Role para baixo até '....'
-4. Veja o erro
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-**Comportamento esperado**
-Uma descrição clara e concisa do que você esperava que acontecesse.
+**Expected behavior**
+A clear and concise description of what you expected to happen.
 
-**Comportamento inesperado**
-Uma descrição clara e concisa do que você esperava que acontecesse.
+**Unexpected behavior**
+A clear and concise description of what you expected to happen.
 
 
-**Capturas de tela**
-Se aplicável, adicione capturas de tela para ajudar a explicar seu problema.
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
-**Exemplo de Código**
-`` `
-seu código vai aqui
-`` `
+**Sample Code**
+```
+your code goes here
+```
 
-**Desktop (preencha as seguintes informações):**
-  - SO: [por exemplo: MacOs]
-  - Navegador [por exemplo cromo: safari]
-  - Versão [por exemplo:22]
+**Desktop (please complete the following information):**
+ - OS: [e.g. iOS]
+ - Browser [e.g. chrome, safari]
+ - Version [e.g. 22]
 
-**Smartphone (preencha as seguintes informações):**
-  - Dispositivo: [por exemplo: iPhone6]
-  - SO: [por exemplo: iOS8.1]
-  - Navegador [por exemplo: safari]
-  - Versão [por exemplo: 22]
+**Smartphone (please complete the following information):**
+ - Device: [e.g. iPhone6]
+ - OS: [e.g. iOS8.1]
+ - Browser [e.g. stock browser, safari]
+ - Version [e.g. 22]
 
-**Contexto adicional**
-Adicione qualquer outro contexto / notas sobre o problema aqui.
+**Additional context**
+Add any other context/notes about the problem here.
