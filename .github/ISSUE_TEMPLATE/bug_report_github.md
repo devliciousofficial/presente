@@ -1,40 +1,36 @@
-<description goes here>
 
-### Environment
+### Ambiente de desenvolvimento
 URL: <url goes here>
-Stage: <dev/staging/qa/prod> (if applicable)
-
-<link to screenshot or video>
+Stage: 
 
 ### Logs
-<paste console logs here>
+...
 
 ### Network Requests
-<paste output from network requests tab here>
-
+...
 ### Browser Metadata
-| Field      | Value         |
+| Campo      | Valor         |
 |------------|---------------|
-| Browser    | Chrome        |
-| Version    | 86.0.4240.198 |
-| Dimensions | 1440x887      |
+| Navegador  | Chrome        |
+| Versão     | 86.0.4240.198 |
+| Resolução  | 1440x887      |
 | ...        | ...           |
 
-### Device Metadata
+### Metadata do dispositivo
 | Field      | Value         |
 |------------|---------------|
-| Device     | Macbook Pro   |
-| Dimensions | 1440x887      |
+| Dispositivo| Macbook Pro   |
+| Resolução  | 1440x887      |
 | ...        | ...           |
 
-### User Data
-| Field      | Value                                                         |
-|------------|---------------------------------------------------------------|
-| Id         | 1Vm7Va                                                        |
-| Local Time | Thu Nov 19 2020 20:11:04 GMT-0700 (Mountain Standard Time)    |
+### Dados do usuário
+| Campo         | Valor                                                         |
+|---------------|---------------------------------------------------------------|
+| Id            | 1Vm7Va                                                        |
+| Horário local | Thu Nov 19 2020 20:11:04 GMT-0700 (Mountain Standard Time)    |
 | ...        | ...                                                           |
 
-### Custom Data
+### Dafos específicos
 | Field      | Value         |
 |------------|---------------|
 | ...        | ...           |
