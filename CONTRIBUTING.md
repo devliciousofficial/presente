@@ -1,4 +1,4 @@
-# Contribuindo para PRESENTE!
+# Contribuindo com PRESENTE!
 Queremos tornar a contribuição para este projeto o mais fácil e transparente possível, seja:
 
 - Relatando um bug
