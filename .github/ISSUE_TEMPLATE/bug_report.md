@@ -1,10 +1,9 @@
 ---
-
-Nome: Relato de bug
-Sobre: Reportar bug tal...
-Título: ''
-Etiqueta: ''
-Atribuição: ''
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
