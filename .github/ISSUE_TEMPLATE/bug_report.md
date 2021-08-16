@@ -1,9 +1,9 @@
 ---
-Nome: Reportar Bug
-Sobre: Crie um relatorio
-Título: 'x'
-Etiqueta: 'x'
-Atribuição: 'x'
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
