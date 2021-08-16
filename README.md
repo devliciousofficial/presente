@@ -19,7 +19,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Mesmo distante, presente.
     <br> 
 </p>
 
@@ -37,7 +37,7 @@
 
 ## 🧐 Sobre <a name = "about"></a>
 
-Mesmo distante, presente.
+* Digite uma descrição sobre o app
 
 ## 🏁 Começando pelo começo <a name = "getting_started"></a>
 
