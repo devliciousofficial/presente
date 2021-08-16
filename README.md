@@ -37,7 +37,7 @@
 
 ## 🧐 Sobre <a name = "about"></a>
 
-*Digite o proposito do projeto aqui e uma breve descrição do funcionamento
+Mesmo distante, presente.
 
 ## 🏁 Começando pelo começo <a name = "getting_started"></a>
 
