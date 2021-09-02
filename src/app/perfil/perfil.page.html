@@ -16,9 +16,11 @@
     <ion-icon name="person-outline"></ion-icon>
     <ion-label>Perfil</ion-label>
     <br>
-    <p><strong>Olá, Camaradas!</strong></p>
-    <hr>
-    <p> Apenas um recadinho da Tia Suh:</p>
-    <a target="_blank" href="https://www.dmtemdebate.com.br/sobre-a-consciencia-de-classe/">Conciencia de classe é muito importate!</a>
+
+    <ion-buttons slot="start">
+      <ion-button (click)="loader()">
+        <ion-icon slot="start" name="exit"></ion-icon>Sair</ion-button>
+    </ion-buttons>
+
   </div>
 </ion-content>
