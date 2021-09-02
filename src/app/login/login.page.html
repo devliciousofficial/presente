@@ -1,6 +1,28 @@
-<ion-content [fullscreen]="true">
-  <div id="container">
-    <strong class="capitalize">Login</strong>
-    <p>Github da  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Suskka2605">Sushila</a></p>
+<!-- login.page.scss contém a declaração CSS !important -->
+
+<ion-content>
+
+  <div class="flex-center logo-center">
+    <img src="../../assets/icon/presente.png">
+  </div>
+
+  <div class="flex-center">
+    <ion-card>
+      <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input type="email" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Senha</ion-label>
+        <ion-input type="password" required></ion-input>
+      </ion-item>
+      <ion-button class="ion-margin-top" type="submit" expand="full" color="primary" (click)="onSubmit()">
+        Entrar
+      </ion-button>
+        <p class="ion-text-center">ou</p>
+      <ion-button class="ion-margin-top"color="tertiary" expand="full" (click)="onSubmit()">
+        Criar conta
+      </ion-button>
+    </ion-card>
   </div>
 </ion-content>
