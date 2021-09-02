@@ -7,7 +7,10 @@ const routes: Routes = [
   { path: 'login', loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule) },
   { path: 'cadastro', loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule) },
   { path: 'alterar-senha', loadChildren: () => import('./alterar-senha/alterar-senha.module').then( m => m.AlterarSenhaPageModule) },
-
+  {
+    path: 'loader',
+    loadChildren: () => import('./loader/loader.module').then( m => m.LoaderPageModule)
+  },
 
 ];
 @NgModule({

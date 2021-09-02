@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-cadastro',
   templateUrl: './cadastro.page.html',
@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CadastroPage implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
+  cadastro(){this.router.navigate(['tabs'])};
 
 }

@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
+import { Router } from '@angular/router';
+import { LoginPageForm } from './login.page.form';
 
 @Component({
   selector: 'app-login',
@@ -7,9 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginPage implements OnInit {
 
-  constructor() { }
+  form: FormGroup;
 
-  ngOnInit() {
-  }
+  constructor(private router: Router, private formBuilder: FormBuilder) { }
 
+  ngOnInit() { this.form = new LoginPageForm(this.formBuilder).createForm(); }
+
+  login(){ this.router.navigate(['tabs']); }
+  cadastro(){ this.router.navigate(['cadastro']); }
+  
 }
