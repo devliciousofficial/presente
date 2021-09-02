@@ -6,7 +6,7 @@
     <ion-buttons slot="start" color="primary">
       <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title class="ion-text-center">Cadastro</ion-title>
+    <ion-title class="ion-text-start">Cadastro</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -34,7 +34,10 @@
         <ion-label position="floating">Confirmar Senha</ion-label>
         <ion-input type="password" required></ion-input>
       </ion-item>
-      <ion-button class="ion-margin-top" type="submit" expand="full" color="primary" (click)="onSubmit()">Concluir</ion-button>
-        </ion-card>
+      <ion-button class="ion-margin-top font-color" type="submit" expand="full" color="primary" (click)="cadastro()">Concluir</ion-button>
+      <p class="ion-text-center">ou</p>
+      <ion-button class="ion-text-lowercase" color="danger" expand="full" (click)="cadastro()">
+        <ion-icon name="logo-google"></ion-icon>mail</ion-button>
+    </ion-card>
     </div>
 </ion-content>

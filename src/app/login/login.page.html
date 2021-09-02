@@ -16,11 +16,12 @@
         <ion-label position="floating">Senha</ion-label>
         <ion-input type="password" required></ion-input>
       </ion-item>
-      <ion-button class="ion-margin-top" type="submit" expand="full" color="primary" (click)="onSubmit()">
+      <ion-button class="ion-margin-top" type="submit" expand="full" color="primary" (click)="login()">
         Entrar
       </ion-button>
+      <ion-button [hidden]="true" class="ion-text-capitalize" size="full" color="dark" expand="block" fill="clear">Esqueceu email/senha</ion-button>
         <p class="ion-text-center">ou</p>
-      <ion-button class="ion-margin-top"color="tertiary" expand="full" (click)="onSubmit()">
+      <ion-button class="ion-margin-top"color="tertiary" expand="full" (click)="cadastro()">
         Criar conta
       </ion-button>
     </ion-card>
