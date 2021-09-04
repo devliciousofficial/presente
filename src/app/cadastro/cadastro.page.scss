@@ -25,3 +25,8 @@ ion-card{
     --background: transparent !important;
     --ion-color-base: transparent !important;
   }
+
+.btn-custom-color {
+    --border-color: var(--ion-color-tertiary);
+    --color: var(--ion-color-tertiary);
+}
