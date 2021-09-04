@@ -18,7 +18,7 @@
         <app-alerta-validacao [field]="form.get('email')" error="email" message="Email inválido"></app-alerta-validacao>
         <ion-item class="ion-no-padding">
           <ion-label position="floating">Senha</ion-label>
-          <ion-input type="password" formControlName='password' placeholder="Mínimo de 8 caractéres"></ion-input>
+          <ion-input type="password" formControlName='password' placeholder="Digite sua senha"></ion-input>
         </ion-item>
         <app-alerta-validacao class="" [field]="form.get('password')" error="required" message="Senha obrigatória"></app-alerta-validacao>
         <ion-button class="ion-margin-top" type="submit" [disabled]="!form.get('email').valid" expand="block" color="primary" (click)="login()">Entrar</ion-button>
