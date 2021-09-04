@@ -24,30 +24,30 @@
           <ion-label position="floating" >Nome</ion-label>
           <ion-input type="text" formControlName='nome' placeholder="ex: Fulano da Silva"></ion-input>
         </ion-item>
-        <app-alerta-validacao [field]="form.get('nome')" error="required" message="Campo obrigatório!"></app-alerta-validacao>
+        <app-alerta-validacao [field]="form.get('nome')" error="required" message="Campo brigatório!"></app-alerta-validacao>
         <app-alerta-validacao [field]="form.get('nome')" error="pattern" message="O nome deve conter apenas letras."></app-alerta-validacao>
         <app-alerta-validacao [field]="form.get('nome')" error="maxlength" message="Máximo de 25 caractéres excedido."></app-alerta-validacao>
         <ion-item class="ion-no-padding">
           <ion-label position="floating">Email</ion-label>
           <ion-input type="email" formControlName='email' placeholder="exemplo@email.com"></ion-input>
         </ion-item>
-        <app-alerta-validacao [field]="form.get('email')" error="required" message="Email Obrigatório!"></app-alerta-validacao>
+        <app-alerta-validacao [field]="form.get('email')" error="required" message="Email obrigatório!"></app-alerta-validacao>
         <app-alerta-validacao [field]="form.get('email')" error="email" message="Email inválido."></app-alerta-validacao>
         <ion-item class="ion-no-padding">
           <ion-label position="floating">Senha</ion-label>
-          <ion-input type="password" formControlName='password' placeholder="Mínimo de 8 caractéres"></ion-input>
+          <ion-input type="password" formControlName='password' placeholder="Escolha uma senha"></ion-input>
         </ion-item>
         <app-alerta-validacao class="" [field]="form.get('password')" error="required" message="Senha obrigatória!"></app-alerta-validacao>
         <app-alerta-validacao class="" [field]="form.get('password')" error="minlength" message="A senha precisa ter, pelo menos, 8 caractéres."></app-alerta-validacao>
         <ion-item class="ion-no-padding">
           <ion-label position="floating">Confirmar Senha</ion-label>
-          <ion-input type="password" required></ion-input>
+          <ion-input type="password" required placeholder="Confirme sua senha"></ion-input>
         </ion-item>
-        <app-alerta-validacao class="" [field]="form.get('password')" error="required" message="Campo Obrigatório!"></app-alerta-validacao>
+        <app-alerta-validacao class="" [field]="form.get('password')" error="required" message="Campo obrigatório!"></app-alerta-validacao>
         <ion-button class="ion-margin-top font-color" type="submit" expand="block" color="primary" (click)="cadastro()">Concluir</ion-button>
         <p class="ion-text-center">ou</p>
-        <ion-button class="ion-text-lowercase" color="danger" expand="block" (click)="cadastro()">
-          <ion-icon name="logo-google"></ion-icon>mail</ion-button>
+        <ion-button class="ion-text-lowercase btn-custom-color"  expand="block" fill="outline"(click)="cadastro()">
+          <ion-icon name="logo-google" color="dodgerblue"></ion-icon>mail</ion-button>
         </ion-card-content>
       </ion-card>
     </form>
