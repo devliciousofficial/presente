@@ -15,3 +15,13 @@ ion-card{
     width: 50px!important;
     margin: 10% auto 10% !important;
   }
+
+  ion-card{
+    --background: transparent;
+    --ion-color-base: transparent !important;
+  }
+  
+  ion-item{
+    --background: transparent !important;
+    --ion-color-base: transparent !important;
+  }
