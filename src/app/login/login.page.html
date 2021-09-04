@@ -10,13 +10,13 @@
     <form [formGroup]="form">
       <ion-card>
         <ion-card-content>
-        <ion-item>
+        <ion-item class="ion-no-padding">
           <ion-label position="floating">Email</ion-label>
           <ion-input type="email" formControlName='email' placeholder="exemplo@email.com"></ion-input>
         </ion-item>
         <app-alerta-validacao [field]="form.get('email')" error="required" message="Email Obrigatório"></app-alerta-validacao>
         <app-alerta-validacao [field]="form.get('email')" error="email" message="Email inválido"></app-alerta-validacao>
-        <ion-item>
+        <ion-item class="ion-no-padding">
           <ion-label position="floating">Senha</ion-label>
           <ion-input type="password" formControlName='password' placeholder="Mínimo de 8 caractéres"></ion-input>
         </ion-item>
