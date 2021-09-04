@@ -10,6 +10,7 @@ import { AlertaValidacaoComponent } from '../components/alerta-validacao/alerta-
 @NgModule({
   imports: [
     CommonModule,
+    FormsModule,
     IonicModule,
     LoginPageRoutingModule,
     FormsModule,
