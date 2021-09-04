@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
 import { IonicModule } from '@ionic/angular';
 
 import { LoginPageRoutingModule } from './login-routing.module';
-
 import { LoginPage } from './login.page';
+import { AlertaValidacaoComponent } from '../components/alerta-validacao/alerta-validacao.component';
 
 @NgModule({
   imports: [
@@ -16,6 +15,10 @@ import { LoginPage } from './login.page';
     FormsModule,
     ReactiveFormsModule
   ],
-  declarations: [LoginPage]
+  
+  declarations: [
+    LoginPage,
+    AlertaValidacaoComponent
+  ]
 })
 export class LoginPageModule {}
