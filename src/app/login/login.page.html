@@ -21,10 +21,10 @@
           <ion-input type="password" formControlName='password' placeholder="Mínimo de 8 caractéres"></ion-input>
         </ion-item>
         <app-alerta-validacao class="" [field]="form.get('password')" error="required" message="Senha obrigatória"></app-alerta-validacao>
-        <ion-button class="ion-margin-top" type="submit" expand="full" color="primary" (click)="login()">Entrar</ion-button>
+        <ion-button class="ion-margin-top" type="submit" expand="block" color="primary" (click)="login()">Entrar</ion-button>
         <p class="ion-text-center ion-margin-top">ou</p>
-        <ion-button color="tertiary" expand="full" (click)="cadastro()">Criar conta</ion-button>
-        <ion-button  class="ion-text-capitalize" size="full" color="secondary" [disabled]="!form.get('email').valid" expand="block" fill="clear" >Esqueceu email/senha</ion-button>
+        <ion-button class="" color="tertiary" expand="block" (click)="cadastro()">Criar conta</ion-button>
+        <ion-button class="ion-text-capitalize" color="secondary" [disabled]="!form.get('email').valid" expand="block" fill="clear" >Esqueceu email/senha?</ion-button>
       </ion-card-content>
       </ion-card>
     </form>
