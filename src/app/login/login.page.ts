@@ -15,7 +15,6 @@ export class LoginPage implements OnInit {
   constructor(private router: Router, private formBuilder: FormBuilder) { }
 
   ngOnInit() { this.form = new LoginPageForm(this.formBuilder).createForm(); }
-
   login(){ this.router.navigate(['tabs']); }
   cadastro(){ this.router.navigate(['cadastro']); }
   
