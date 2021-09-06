@@ -1,25 +1,25 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 import { IonicModule } from '@ionic/angular';
 
-import { LoginPageRoutingModule } from './login-routing.module';
-import { LoginPage } from './login.page';
-import { AlertaValidacaoComponent } from '../components/alerta-validacao/alerta-validacao.component';
+import { CadastroPageRoutingModule } from './cadastro-routing.module';
+
+import { CadastroPage } from './cadastro.page';
+import { AlertaValidacaoComponent } from '../../components/alerta-validacao/alerta-validacao.component';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    LoginPageRoutingModule,
-    FormsModule,
+    CadastroPageRoutingModule,
     ReactiveFormsModule
   ],
-  
   declarations: [
-    LoginPage,
+    CadastroPage,
     AlertaValidacaoComponent
   ]
 })
-export class LoginPageModule {}
+export class CadastroPageModule {}

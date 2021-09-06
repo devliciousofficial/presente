@@ -41,7 +41,7 @@
         <app-alerta-validacao class="" [field]="form.get('password')" error="minlength" message="A senha precisa ter, pelo menos, 8 caractéres."></app-alerta-validacao>
         <ion-item class="ion-no-padding">
           <ion-label position="floating">Confirmar Senha</ion-label>
-          <ion-input type="password" required placeholder="Confirme sua senha"></ion-input>
+          <ion-input type="password" formControlName="confirmPassword" placeholder="Confirme sua senha"></ion-input>
         </ion-item>
         <app-alerta-validacao class="" [field]="form.get('password')" error="required" message="Campo obrigatório!"></app-alerta-validacao>
         <ion-button class="ion-margin-top font-color" type="submit" expand="block" color="primary" (click)="cadastro()">Concluir</ion-button>
