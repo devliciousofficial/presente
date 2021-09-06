@@ -1,7 +1,14 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-back-button></ion-back-button>
-    <ion-title slot="start">Perfil</ion-title>
+    <br>
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <img src="https://avatars.githubusercontent.com/u/49011043?v=4" />
+      </ion-avatar>
+      <ion-label>
+        <h1>Rodrigo Trindade</h1>
+      </ion-label>
+    </ion-item>
   </ion-toolbar>
 </ion-header>
 
@@ -11,16 +18,46 @@
       <ion-title size="large">Perfil</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <div id="container" class="flex-center-page">
-    <ion-icon name="person-outline"></ion-icon>
-    <ion-label>Perfil</ion-label>
-    <br>
-
-    <ion-buttons slot="start">
-      <ion-button (click)="loader()">
-        <ion-icon slot="start" name="exit"></ion-icon>Sair</ion-button>
-    </ion-buttons>
-
-  </div>
+  <ion-list expand="full">
+    <ion-item>
+      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
+      <ion-icon name="settings-outline"></ion-icon>
+      <ion-label>Configurações</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
+      <ion-icon name="shield-checkmark-outline"></ion-icon>
+      <ion-label>Segurança</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
+      <ion-icon name="notifications-outline"></ion-icon>
+      <ion-label>Norificações</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
+      <ion-icon name="card-outline"></ion-icon>
+      <ion-label>Formas de pagamento</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
+      <ion-icon name="location-outline"></ion-icon>
+      <ion-label>Endereços</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
+      <ion-icon name="help-circle-outline"></ion-icon>
+      <ion-label>Ajuda</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
+      <ion-icon name="document-text-outline"></ion-icon>
+      <ion-label>Meus dados</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
+      <ion-icon name="bookmark-outline"></ion-icon>
+      <ion-label>Favoritos</ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>
