@@ -1,7 +1,12 @@
-ion-header{
-    height: 100px;
-}
+ion-toolbar{
+    ion-item{
+        padding-left: 10px;
 
+        ion-label{
+            padding-left: 10px;
+        }
+    }
+}
 ion-list{
 
     ion-item{
@@ -11,12 +16,11 @@ ion-list{
     ion-label{
         padding: 10px 20px 10px 20px;
     }
-
 }
 
 ion-avatar{
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     margin: 0;
 }
 
