@@ -3,17 +3,18 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Tab2Page } from './tab2.page';
+import { PedidosPage } from './pedidos.page';
 
-import { Tab2PageRoutingModule } from './tab2-routing.module';
+import { PedidosPageRoutingModule } from './pedidos-routing.module';
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
-    Tab2PageRoutingModule
+    RouterModule.forChild([{ path: '', component: PedidosPage }]),
+    PedidosPageRoutingModule,
   ],
-  declarations: [Tab2Page]
+  declarations: [PedidosPage]
 })
-export class Tab2PageModule {}
+export class PedidosPageModule {}
