@@ -1,24 +1,38 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title slot="start">Busca</ion-title>
-  </ion-toolbar>
+   <ion-toolbar>
+     <br>
+      <ion-searchbar expand="block"
+         showCancelButton="focus" cancelButtonText="Cancel" animated="true"
+         clearIcon="close-circle" clearIcon="close-sharp" enterkeyhint="search"
+         inputmode="text" placeholder="Busque um Presente!" searchIcon="search-outline"
+         searchIcon="search-sharp" showCancelButton="focus" showClearButton="focus"
+         spellcheck="true" type="search" value=""
+
+
+      >
+      </ion-searchbar>
+      <br>
+   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Busca</ion-title>
-    </ion-toolbar>
-  </ion-header>
+   <ion-header collapse="condense">
+      <ion-toolbar>
+         <ion-title size="large">Busca</ion-title>
+      </ion-toolbar>
+   </ion-header>
 
-  <div id="container" class="flex-center-page">
-    <ion-icon name="search-outline"></ion-icon>
-    <ion-label>Busca</ion-label>
-    <br>
-    <p><strong>Olá, Camaradas!</strong></p>
-    <hr>
-    <p> Apenas um recadinho da Tia Suh</p>
-    <a target="_blank" href="https://www.dmtemdebate.com.br/sobre-a-consciencia-de-classe/">Consciência de classe é muito importante!</a>
-  </div>
+   <div id="container" class="flex-center-page">
+      <ion-icon name="search-outline"></ion-icon>
+      <ion-label>Busca</ion-label>
+      <br />
+      <p><strong>Olá, Camaradas!</strong></p>
+      <hr />
+      <p>Apenas um recadinho da Tia Suh</p>
+      <a
+         target="_blank"
+         href="https://www.dmtemdebate.com.br/sobre-a-consciencia-de-classe/"
+         >Consciência de classe é muito importante!</a
+      >
+   </div>
 </ion-content>
-
