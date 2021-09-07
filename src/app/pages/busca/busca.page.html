@@ -1,5 +1,4 @@
 <ion-header [translucent]="true">
-   <ion-toolbar>
      <br>
       <ion-searchbar expand="block"
          showCancelButton="focus" cancelButtonText="Cancel" animated="true"
@@ -7,12 +6,20 @@
          inputmode="text" placeholder="Busque um Presente!" searchIcon="search-outline"
          searchIcon="search-sharp" showCancelButton="focus" showClearButton="focus"
          spellcheck="true" type="search" value=""
+         [(ngModel)]="autocomplete.input" (ionInput)="UpdateSearchResults()"
 
 
       >
       </ion-searchbar>
       <br>
-   </ion-toolbar>
+      <ion-list [hidden]="autocompleteItems.length == 0">
+        <ion-item *ngFor="let item of autocompleteItems" tappable (click)="SelectSearchResult(item)">
+          {{ item.description }}
+        </ion-item>
+      </ion-list>
+          <ion-button (click)="loadMap()" shape="round" fill="outline" expand="full">
+            <ion-icon slot="start" name="locate"></ion-icon>Onde estou?
+          </ion-button>
 </ion-header>
 
 <ion-content [fullscreen]="true">
@@ -21,18 +28,15 @@
          <ion-title size="large">Busca</ion-title>
       </ion-toolbar>
    </ion-header>
-
-   <div id="container" class="flex-center-page">
-      <ion-icon name="search-outline"></ion-icon>
-      <ion-label>Busca</ion-label>
-      <br />
-      <p><strong>Olá, Camaradas!</strong></p>
-      <hr />
-      <p>Apenas um recadinho da Tia Suh</p>
-      <a
-         target="_blank"
-         href="https://www.dmtemdebate.com.br/sobre-a-consciencia-de-classe/"
-         >Consciência de classe é muito importante!</a
-      >
-   </div>
+   <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+    <ion-fab-button (click)="ShowCords()" ion-fab color="tertiary">
+      <ion-icon name="information-circle-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  <div class="map-wrapper" style="height: 100%;">      
+    <div id="map_center">
+      <ion-icon name="pin" size="large" color="danger"></ion-icon>      
+    </div>
+    <div  id="map"  style="height: 100%;"></div>
+  </div>   
 </ion-content>
