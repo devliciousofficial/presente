@@ -15,6 +15,10 @@ export class CadastroPage implements OnInit {
   constructor(private router: Router, private formBuilder: FormBuilder) { }
 
   ngOnInit() { this.form = new CadastroPageForm(this.formBuilder).createForm(); }
+  
   cadastro(){this.router.navigate(['tabs'])};
+
+  cadastroComFacebook(){this.router.navigate(['tabs'])};
+  cadastroComTwitter(){this.router.navigate(['tabs'])};
 
 }
