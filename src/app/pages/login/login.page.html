@@ -1,5 +1,5 @@
 <!-- login.page.scss contém a declaração CSS !important -->
-<ion-header [translucent]="true">
+<ion-header class="ion-no-border"[translucent]="true">
   <ion-toolbar>
     <ion-back-button></ion-back-button>
     <ion-title class="ion-text-center" >Login</ion-title>
@@ -36,7 +36,7 @@
                </ion-item>
                <app-alerta-validacao class="" [field]="form.get('password')" error="required"
                   message="Senha obrigatória"></app-alerta-validacao>
-               <ion-button class="text-transform-none"type="submit"  shape="round" [disabled]="!form.get('email').valid" expand="block" color="primary"
+               <ion-button class="text-transform-none"type="submit"  shape="round" expand="block" color="primary"
                   (click)="login()">Entrar</ion-button>
                
                   <ion-grid class="ion-no-padding">
