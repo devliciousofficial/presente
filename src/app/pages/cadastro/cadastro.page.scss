@@ -1,16 +1,13 @@
 //centraliza o formulário
 form{
   width: 100%;
-  margin: 20px;
+  margin: 0px;
 }
 
-ion-card{
+ion-card, ion-toolbar{
     width: 100% !important;
     margin: auto !important;
     box-shadow: none !important;
-  }
-
-  ion-card{
     --background: transparent;
     --ion-color-base: transparent !important;
   }
@@ -23,4 +20,19 @@ ion-card{
 .btn-custom-color {
     --border-color: var(--ion-color-tertiary);
     --color: var(--ion-color-tertiary);
+}
+
+ion-col{
+  text-align: center;
+
+}
+
+hr{
+  border-top: 1px solid;
+  width: 100%;  
+  color: #e2e2e2;
+}
+
+p{
+  width: auto;
 }
