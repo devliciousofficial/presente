@@ -1,0 +1,56 @@
+<!-- login.page.scss contém a declaração CSS !important -->
+<ion-header class="ion-no-border" [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="ion-text-center">Inscrêva-se</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Inscrêva-se</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="flex-center ion-padding-top">
+      <ion-card>
+        <ion-card-content>
+          <!-- <ion-text class="ion-padding-start ion-margin-start">
+            <p class="ion-padding-start ion-margin-start">Inscreva-se com</p>
+          </ion-text> -->
+          <br><br><br><br><br><br><br><br>
+          <ion-grid class="ion-no-padding">
+            <ion-row>
+              <ion-col>
+                <ion-button class="text-transform-none" shape="round" color="facebook" expand="block" (click)="cadastroComFacebook()">
+                  Facebook</ion-button>
+              </ion-col>
+              <ion-col>
+                <ion-button class="text-transform-none" shape="round" color="twitter" expand="block" (click)="cadastroComTwitter()">
+                  Twitter</ion-button>
+              </ion-col>
+            </ion-row>
+            <ion-row class="ion-padding">
+              <ion-col>
+                <hr />
+              </ion-col>
+              <ion-col>
+                <p>ou</p>
+              </ion-col>
+              <ion-col>
+                <hr />
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+
+          <ion-button class="text-transform-none" type="submit" shape="round" expand="block" color="primary"
+          (click)="cadastro()">Email</ion-button>
+
+          <ion-text class="ion-padding-start ion-margin-start">
+            <p class="ion-padding-start ion-margin-start" >Já é inscrito? Faça <a routerLink="/login">Login</a></p>
+          </ion-text>
+
+        </ion-card-content>
+      </ion-card>
+  </div>
+</ion-content>

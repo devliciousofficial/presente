@@ -1,15 +1,17 @@
 <!-- login.page.scss contém a declaração CSS !important -->
 <ion-header class="ion-no-border" [translucent]="true">
   <ion-toolbar>
-    <ion-back-button></ion-back-button>
-    <ion-title class="ion-text-center">Login</ion-title>
+    <ion-buttons slot="start" >
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-end">Login</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <ion-header class="ion-no-border" collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Início</ion-title>
+      <ion-title size="large">Login</ion-title>
     </ion-toolbar>
   </ion-header>
 

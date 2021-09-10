@@ -1,12 +1,12 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header class="ion-no-border" color="primary" [translucent]="true">
+  <ion-toolbar color="primary">
     <br>
-    <ion-item lines="none">
+    <ion-item color="primary" lines="none">
       <ion-avatar slot="start">
         <img src="https://avatars.githubusercontent.com/u/49011043?v=4" />
       </ion-avatar>
       <ion-label>
-        <h1>Rodrigo Trindade</h1>
+        <h1 color="primary">Rodrigo Trindade</h1>
       </ion-label>
     </ion-item>
     <br>
@@ -14,56 +14,59 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <ion-header class="ion-no-border" collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Perfil</ion-title>
     </ion-toolbar>
   </ion-header>
+
+<ion-list-header>
+  <ion-label >Geral</ion-label>
+</ion-list-header>
+  
   <ion-list expand="full">
     <ion-item>
-      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
       <ion-icon name="settings-outline"></ion-icon>
-      <ion-label>Configurações</ion-label>
+      <ion-label>Configurações de Perfil</ion-label>
     </ion-item>
     <ion-item>
-      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
-      <ion-icon name="shield-checkmark-outline"></ion-icon>
-      <ion-label>Segurança</ion-label>
+      <ion-icon name="lock-closed-outline"></ion-icon>
+      <ion-label>Senha e Segurança</ion-label>
     </ion-item>
     <ion-item>
-      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
-      <ion-icon name="notifications-outline"></ion-icon>
-      <ion-label>Norificações</ion-label>
+      <ion-icon name="mail-outline"></ion-icon>
+      <ion-label>Meu email</ion-label>
     </ion-item>
     <ion-item>
-      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
-      <ion-icon name="card-outline"></ion-icon>
+      <ion-icon name="wallet-outline"></ion-icon>
       <ion-label>Formas de pagamento</ion-label>
     </ion-item>
     <ion-item>
-      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
       <ion-icon name="location-outline"></ion-icon>
       <ion-label>Endereços</ion-label>
     </ion-item>
     <ion-item>
-      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
+      <ion-icon name="notifications-outline"></ion-icon>
+      <ion-label>Notificações</ion-label>
+    </ion-item>
+  </ion-list>
+
+    <ion-list-header>
+      <ion-label >Suporte</ion-label>
+    </ion-list-header>
+    <ion-list>
+    <ion-item>
+      <ion-icon name="shield-outline"></ion-icon>
+      <ion-label>Termos e condições</ion-label>
+    </ion-item>
+    <ion-item>
       <ion-icon name="help-circle-outline"></ion-icon>
       <ion-label>Ajuda</ion-label>
     </ion-item>
-    <ion-item>
-      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
-      <ion-icon name="document-text-outline"></ion-icon>
-      <ion-label>Meus dados</ion-label>
-    </ion-item>
-    <ion-item>
-      <ion-icon slot="end" size="small" name="chevron-forward-outline"></ion-icon>
-      <ion-icon name="bookmark-outline"></ion-icon>
-      <ion-label>Favoritos</ion-label>
-    </ion-item>
     <ion-item lines="none">
-    <ion-buttons slot="start">
+    <ion-buttons expand="full">
       <ion-icon slot="start" name="exit"></ion-icon>
-      <ion-button (click)="loader()">Sair</ion-button>
+      <ion-button expand="full" fill="clear" (click)="sair()">Sair</ion-button>
     </ion-buttons>
     </ion-item>
   </ion-list>
