@@ -13,6 +13,6 @@ export class PerfilPage implements OnInit {
   ngOnInit() {
   }
 
-  loader(){ this.router.navigate(['login']); }
+  sair(){ this.router.navigate(['inscricao']); }
 
 }

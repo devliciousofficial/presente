@@ -1,0 +1,47 @@
+<!-- login.page.scss contém a declaração CSS !important -->
+<ion-header class="ion-no-border" [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="ion-text-center">Inscrever-se</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Inscrever-se</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="flex-center ion-padding-top">
+      <ion-card>
+        <br><br><br><br><br><br><br><br>
+        <ion-card-content>
+          <ion-button class="text-transform-none ion-margin-top" shape="round" color="facebook" expand="block" (click)="cadastroComFacebook()">
+            Facebook</ion-button>
+          <ion-button class="text-transform-none ion-margin-top" shape="round" color="twitter" expand="block" (click)="cadastroComTwitter()">
+            Twitter</ion-button>
+          <ion-grid class="">
+            <ion-row class="ion-padding">
+              <ion-col>
+                <hr />
+              </ion-col>
+              <ion-col>
+                <p>ou</p>
+              </ion-col>
+              <ion-col>
+                <hr />
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+
+          <ion-button class="text-transform-none" type="submit" shape="round" expand="block" color="primary"
+          (click)="cadastro()">Email</ion-button>
+
+          <ion-text class="ion-padding-start ion-margin-start">
+            <p class="ion-padding-start ion-margin-start" >Já é inscrito? Faça <a routerLink="/login">Login</a></p>
+          </ion-text>
+
+        </ion-card-content>
+      </ion-card>
+  </div>
+</ion-content>
