@@ -13,13 +13,15 @@ import Parse from 'parse';
 })
 export class CadastroPage implements OnInit {
 
-   username: string;
-   password: string;
-   email: string;
    form: FormGroup;
 
+   username: string;
+   email: string;
+   password: string;
+   confirmPassword: string;
+
    constructor(private router: Router, private formBuilder: FormBuilder) {
-      //TODO - guardar ID do app e Chave JS na pastar environment
+      //TODO - guardar ID do app e Chave JS na pasta environment
       Parse.initialize('3auUTevR9wvgsYWt0BqYoQUHQV8Uz634k48WGhIk', 'aB1zPk1OjreFfXAzU1ECz86lJ0u8wqiQPcMpVE2D');
       Parse.serverURL = 'https://parseapi.back4app.com';
    }
@@ -37,14 +39,21 @@ export class CadastroPage implements OnInit {
          user.set('password', this.password);
 
          try {
+            if (this.password !== this.confirmPassword) {
+               this.password = '';
+               this.confirmPassword = '';
+               throw new Error('As senhas não coincidem. Tente novamente');
+            }
+
             const userResult = await user.signUp();
             console.log('User signed up', userResult);
+
+            //TODO - criar uma rota segura por meio de guards//
+            this.router.navigate(['inicio']);
+
          } catch (error) {
             console.error('Error while signing up user', error);
          }
       })();
    }
-
-   cadastro() { this.router.navigate(['tabs']) };
-
 }
