@@ -2,24 +2,24 @@ import { Component, Input, OnInit } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 
 @Component({
-  selector: 'app-alerta-validacao',
-  templateUrl: './alerta-validacao.component.html',
-  styleUrls: ['./alerta-validacao.component.scss'],
+   selector: 'app-alerta-validacao',
+   templateUrl: './alerta-validacao.component.html',
+   styleUrls: ['./alerta-validacao.component.scss'],
 })
 export class AlertaValidacaoComponent implements OnInit {
 
-  @Input() message: string;
-  @Input() field: FormGroup;
-  @Input() error: string;
+   @Input() message: string;
+   @Input() field: FormGroup;
+   @Input() error: string;
 
-  constructor() { }
+   constructor() { }
 
-  ngOnInit() {}
+   ngOnInit() { }
 
-  mostrarMensagemDeErro(){
-   if (this.field.touched && this.field.errors?.[this.error]) {
-      return true;
+   mostrarMensagemDeErro() {
+      if (this.field.touched && this.field.errors?.[this.error]) {
+         return true;
+      }
+      return false;
    }
-   return false;
-  }
 }
