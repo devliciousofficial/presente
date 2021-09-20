@@ -7,9 +7,6 @@ import { FormGroup } from '@angular/forms';
   styleUrls: ['./alerta-validacao.component.scss'],
 })
 export class AlertaValidacaoComponent implements OnInit {
-  shouldShowComponent(): any {
-    throw new Error('Method not implemented.');
-  }
 
   @Input() message: string;
   @Input() field: FormGroup;
