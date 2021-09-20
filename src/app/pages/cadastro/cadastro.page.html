@@ -21,14 +21,14 @@
         <ion-card-content>
         <ion-item class="ion-no-padding">
           <ion-label position="floating" >Nome</ion-label>
-          <ion-input type="text" formControlName='nome' placeholder="ex: Fulano da Silva"></ion-input>
+          <ion-input [(ngModel)]="username" type="text" formControlName='nome' placeholder="ex: Fulano da Silva"></ion-input>
         </ion-item>
         <app-alerta-validacao [field]="form.get('nome')" error="required" message="Campo brigatório!"></app-alerta-validacao>
         <app-alerta-validacao [field]="form.get('nome')" error="pattern" message="O nome deve conter apenas letras."></app-alerta-validacao>
         <app-alerta-validacao [field]="form.get('nome')" error="maxlength" message="Máximo de 25 caractéres excedido."></app-alerta-validacao>
         <ion-item class="ion-no-padding">
           <ion-label position="floating">Email</ion-label>
-          <ion-input type="email" formControlName='email' placeholder="exemplo@email.com"></ion-input>
+          <ion-input  [(ngModel)]="email" type="email" formControlName='email' placeholder="exemplo@email.com"></ion-input>
         </ion-item>
         <app-alerta-validacao [field]="form.get('email')" error="required" message="Email obrigatório!"></app-alerta-validacao>
         <app-alerta-validacao [field]="form.get('email')" error="email" message="Email inválido."></app-alerta-validacao>
@@ -40,12 +40,12 @@
         <app-alerta-validacao class="" [field]="form.get('password')" error="minlength" message="A senha precisa ter, pelo menos, 8 caractéres."></app-alerta-validacao>
         <ion-item class="ion-no-padding">
           <ion-label position="floating">Confirmar Senha</ion-label>
-          <ion-input type="password" formControlName="confirmPassword" placeholder="Confirme sua senha"></ion-input>
+          <ion-input [(ngModel)]="password" type="password" formControlName="confirmPassword" placeholder="Confirme sua senha"></ion-input>
         </ion-item>
         <app-alerta-validacao class="" [field]="form.get('password')" error="required" message="Campo obrigatório!"></app-alerta-validacao>
         <br>
         <ion-button class="text-transform-none" type="submit" shape="round" expand="block" color="primary"
-          (click)="cadastro()">Concluir</ion-button>
+          (click)="cadastrar()">Concluir</ion-button>
         </ion-card-content>
       </ion-card>
     </form>
