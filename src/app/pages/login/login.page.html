@@ -21,7 +21,7 @@
         <ion-card-content>
           <ion-item class="ion-no-padding">
             <ion-label position="floating">Email</ion-label>
-            <ion-input type="email" formControlName="email" placeholder="exemplo@email.com"></ion-input>
+            <ion-input [(ngModel)]="email" type="email" formControlName="email" placeholder="exemplo@email.com"></ion-input>
           </ion-item>
           <app-alerta-validacao [field]="form.get('email')" error="required" message="Email Obrigatório">
           </app-alerta-validacao>
@@ -29,7 +29,7 @@
           </app-alerta-validacao>
           <ion-item class="ion-no-padding">
             <ion-label position="floating">Senha</ion-label>
-            <ion-input class="ion-no-padding ion-text-none" type="password" formControlName="password"
+            <ion-input [(ngModel)]="password" class="ion-no-padding ion-text-none" type="password" formControlName="password"
               placeholder="Digite sua senha"></ion-input>
           </ion-item>
           <app-alerta-validacao class="" [field]="form.get('password')" error="required" message="Senha obrigatória">
