@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { CadastroPageForm } from './cadastro.page.form';
 import Parse from 'parse';
 
+//TODO - criar uma rota segura por meio de guards após criar conta e tentar fazer login//
 
 @Component({
    selector: 'app-cadastro',
@@ -46,10 +47,8 @@ export class CadastroPage implements OnInit {
             }
 
             const userResult = await user.signUp();
-            console.log('User signed up', userResult);
-
-            //TODO - criar uma rota segura por meio de guards//
-            this.router.navigate(['inicio']);
+            Parse.User.logOut();
+            console.log('User signed up. Please verify your e-mail');
 
          } catch (error) {
             console.error('Error while signing up user', error);
