@@ -21,14 +21,14 @@
         <ion-card-content>
         <ion-item class="ion-no-padding">
           <ion-label position="floating" >Nome</ion-label>
-          <ion-input [(ngModel)]="username" type="text" formControlName='nome' placeholder="ex: Fulano da Silva"></ion-input>
+          <ion-input [(ngModel)]="name" type="text" formControlName='nome' placeholder="ex: Fulano da Silva"></ion-input>
         </ion-item>
         <app-alerta-validacao [field]="form.get('nome')" error="required" message="Campo brigatório!"></app-alerta-validacao>
         <app-alerta-validacao [field]="form.get('nome')" error="pattern" message="O nome deve conter apenas letras."></app-alerta-validacao>
         <app-alerta-validacao [field]="form.get('nome')" error="maxlength" message="Máximo de 25 caractéres excedido."></app-alerta-validacao>
         <ion-item class="ion-no-padding">
           <ion-label position="floating">Email</ion-label>
-          <ion-input  [(ngModel)]="email" type="email" formControlName='email' placeholder="exemplo@email.com"></ion-input>
+          <ion-input  [(ngModel)]="username" type="email" formControlName='email' placeholder="exemplo@email.com"></ion-input>
         </ion-item>
         <app-alerta-validacao [field]="form.get('email')" error="required" message="Email obrigatório!"></app-alerta-validacao>
         <app-alerta-validacao [field]="form.get('email')" error="email" message="Email inválido."></app-alerta-validacao>
