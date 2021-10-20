@@ -16,6 +16,7 @@ export class CadastroPage implements OnInit {
 
    form: FormGroup;
 
+   name: string;
    username: string;
    email: string;
    password: string;
@@ -35,8 +36,9 @@ export class CadastroPage implements OnInit {
    cadastrar() {
       (async () => {
          const user = new Parse.User();
+         user.set('name', this.name)
          user.set('username', this.username);
-         user.set('email', this.email);
+         user.set('email', this.username);
          user.set('password', this.password);
 
          try {
