@@ -112,7 +112,7 @@ Give an example
 
 ## ⛏️ Recursos usados <a name = "built_using"></a>
 
-- [Firebase](https://firebase.google.com/) - Server/Database Framework
+- [Back4app](https://www.back4app.com/) - BaaS
 - [Ionic](https://ionicframework.com/) - Web/Native Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 - [Android Studio](https://developer.android.com) - Native Environment
