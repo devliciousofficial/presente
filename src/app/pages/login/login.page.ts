@@ -26,7 +26,7 @@ export class LoginPage implements OnInit {
 
    ngOnInit() { this.form = new LoginPageForm(this.formBuilder).createForm(); }
    loginTeste() { this.router.navigate(['tabs']); }
-   redefinirSenha() { this.router.navigate(['alterar-senha']); }
+   redefinirSenha(){ this.router.navigate(['redefinir']); }
 
    // eslint-disable-next-line @typescript-eslint/adjacent-overload-signatures
    login() {

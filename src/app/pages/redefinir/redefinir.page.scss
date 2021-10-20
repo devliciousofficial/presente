@@ -1,0 +1,33 @@
+//centraliza o formulário
+form{
+   width: 100%;
+   margin: 0;
+ }
+
+ ion-card, ion-toolbar{
+   width: 100% !important;
+   margin: auto !important;
+   box-shadow: none !important;
+   --background: transparent;
+   --ion-color-base: transparent !important;
+ }
+
+ ion-item{
+   --background: transparent !important;
+   --ion-color-base: transparent !important;
+ }
+
+ ion-col{
+   text-align: center;
+
+ }
+
+ hr{
+   border-top: 1px solid;
+   width: 100%;
+   color: #e2e2e2;
+ }
+
+ p{
+   width: auto;
+ }
