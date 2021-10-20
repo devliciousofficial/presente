@@ -15,7 +15,7 @@ export class InscricaoPage implements OnInit {
   }
 
   cadastro(){ this.router.navigate(['cadastro']); }
-  cadastroComFacebook(){this.router.navigate(['tabs'])};
-  cadastroComTwitter(){this.router.navigate(['tabs'])};
+  cadastroComFacebook(){this.router.navigate(['tabs']);};
+  cadastroComTwitter(){this.router.navigate(['tabs']);};
 
 }
