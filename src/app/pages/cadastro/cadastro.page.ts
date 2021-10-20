@@ -50,6 +50,7 @@ export class CadastroPage implements OnInit {
 
             const userResult = await user.signUp();
             Parse.User.logOut();
+            this.router.navigate(['login'])
             console.log('User signed up. Please verify your e-mail');
 
          } catch (error) {
