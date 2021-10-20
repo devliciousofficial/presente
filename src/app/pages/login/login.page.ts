@@ -34,6 +34,7 @@ export class LoginPage implements OnInit {
          try {
             // Pass the username and password to logIn function
             const user = await Parse.User.logIn(this.email, this.password);
+            const currentUser = Parse.User.current();
             // Do stuff after successful login
             console.log('Logged in user', user);
             this.router.navigate(['tabs']);
