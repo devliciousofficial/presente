@@ -13,9 +13,14 @@ form{
  }
 
  ion-item{
+    width: 100%;
    --background: transparent !important;
    --ion-color-base: transparent !important;
  }
+
+ion-button{
+   width: 100%;
+}
 
  ion-col{
    text-align: center;
@@ -31,3 +36,11 @@ form{
  p{
    width: auto;
  }
+
+ ion-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
