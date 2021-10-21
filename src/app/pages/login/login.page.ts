@@ -2,7 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 import { LoginPageForm } from './login.page.form';
+
 import Parse from 'parse';
+import { environment } from '../../../environments/environment';
 
 
 @Component({
@@ -19,8 +21,7 @@ export class LoginPage implements OnInit {
    password: string;
 
    constructor(private router: Router, private formBuilder: FormBuilder) {
-      //TODO - guardar ID do app e Chave JS na pasta environment
-      Parse.initialize('3auUTevR9wvgsYWt0BqYoQUHQV8Uz634k48WGhIk', 'aB1zPk1OjreFfXAzU1ECz86lJ0u8wqiQPcMpVE2D');
+      Parse.initialize(environment.APP_ID, environment.JS_KEY);
       Parse.serverURL = 'https://parseapi.back4app.com';
    }
 

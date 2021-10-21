@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 import { EmailValidator, FormBuilder, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 import { CadastroPageForm } from './cadastro.page.form';
+
 import Parse from 'parse';
+import { environment } from '../../../environments/environment';
 
 //TODO - criar uma rota segura por meio de guards após criar conta e tentar fazer login//
 
@@ -23,8 +25,7 @@ export class CadastroPage implements OnInit {
    confirmPassword: string;
 
    constructor(private router: Router, private formBuilder: FormBuilder) {
-      //TODO - guardar ID do app e Chave JS na pasta environment
-      Parse.initialize('3auUTevR9wvgsYWt0BqYoQUHQV8Uz634k48WGhIk', 'aB1zPk1OjreFfXAzU1ECz86lJ0u8wqiQPcMpVE2D');
+      Parse.initialize(environment.APP_ID, environment.JS_KEY);
       Parse.serverURL = 'https://parseapi.back4app.com';
    }
 

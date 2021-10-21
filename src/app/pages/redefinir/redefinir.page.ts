@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 import { RedefinirPageForm } from './redefinir.page.form';
-import Parse from 'parse';
 
+import Parse from 'parse';
+import { environment } from '../../../environments/environment';
 
 @Component({
    selector: 'app-redefinir',
@@ -16,9 +17,8 @@ export class RedefinirPage implements OnInit {
    email: string;
 
    constructor(private router: Router, private formBuilder: FormBuilder) {
-            //TODO - guardar ID do app e Chave JS na pasta environment
-            Parse.initialize('3auUTevR9wvgsYWt0BqYoQUHQV8Uz634k48WGhIk', 'aB1zPk1OjreFfXAzU1ECz86lJ0u8wqiQPcMpVE2D');
-            Parse.serverURL = 'https://parseapi.back4app.com';
+      Parse.initialize(environment.APP_ID, environment.JS_KEY);
+      Parse.serverURL = 'https://parseapi.back4app.com';
    }
 
    ngOnInit() {this.form = new RedefinirPageForm(this.formBuilder).createForm();}
