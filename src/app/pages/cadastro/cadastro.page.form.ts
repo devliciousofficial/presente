@@ -1,4 +1,4 @@
-import { FormBuilder, FormGroup, Validators } from "@angular/forms"
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 export class CadastroPageForm {
 

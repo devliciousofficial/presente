@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/member-ordering */
 import { Component, OnInit } from '@angular/core';
-import { EmailValidator, FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 import { CadastroPageForm } from './cadastro.page.form';
 
@@ -31,13 +31,13 @@ export class CadastroPage implements OnInit {
 
    ngOnInit() { this.form = new CadastroPageForm(this.formBuilder).createForm(); }
 
-   cadastroComFacebook() { this.router.navigate(['tabs']) };
-   cadastroComTwitter() { this.router.navigate(['tabs']) };
+   cadastroComFacebook() { this.router.navigate(['tabs']);};
+   cadastroComTwitter() { this.router.navigate(['tabs']);};
 
    cadastrar() {
       (async () => {
          const user = new Parse.User();
-         user.set('name', this.name)
+         user.set('name', this.name);
          user.set('username', this.username);
          user.set('email', this.username);
          user.set('password', this.password);
@@ -51,7 +51,7 @@ export class CadastroPage implements OnInit {
 
             const userResult = await user.signUp();
             Parse.User.logOut();
-            this.router.navigate(['login'])
+            this.router.navigate(['login']);
             console.log('User signed up. Please verify your e-mail');
 
          } catch (error) {
