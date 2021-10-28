@@ -36,7 +36,7 @@
           </app-alerta-validacao>
           <ion-item class="ion-no-padding" lines="none">
             <ion-button class="text-transform-none ion-no-padding" slot="end" color="primary"
-              [disabled]="form.get('email').valid" expand="block" fill="clear" (click)="redefinirSenha()">Esqueceu a senha?</ion-button>
+              [disabled]="" expand="block" fill="clear" (click)="redefinirSenha()">Esqueceu a senha?</ion-button>
           </ion-item>
           <ion-button class="text-transform-none" type="submit" shape="round" expand="block" color="primary"
             (click)="login()">Entrar</ion-button>
@@ -55,12 +55,12 @@
             </ion-row>
             <ion-row>
               <ion-col>
-                <ion-button class="text-transform-none" shape="round" color="facebook" expand="block" (click)="login()">
+                <ion-button class="text-transform-none" shape="round" color="facebook" expand="block" (click)="loginComFacebook()">
                   Facebook</ion-button>
                 <br />
               </ion-col>
               <ion-col>
-                <ion-button class="text-transform-none" shape="round" color="twitter" expand="block" (click)="login()">
+                <ion-button class="text-transform-none" shape="round" color="twitter" expand="block" (click)="loginComTwitter()">
                   Twitter</ion-button>
                 <br />
               </ion-col>
