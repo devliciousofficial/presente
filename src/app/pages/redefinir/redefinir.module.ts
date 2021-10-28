@@ -15,11 +15,12 @@ import { AlertaValidacaoComponent } from 'src/app/components/alerta-validacao/al
     IonicModule,
     RedefinirPageRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   declarations: [
      RedefinirPage,
-     AlertaValidacaoComponent
+     AlertaValidacaoComponent,
+
 
    ]
 })
