@@ -64,6 +64,7 @@ export class LoginPage implements OnInit {
    }
 
     //TODO: Implemntar o login com as tedes sociais - Funcoes apenas com rotas para a tela principal do app//
+    paginaRedefinirSenha() {this.router.navigate(['redefinir'])}
     loginComFacebook() { this.router.navigate(['tabs']); };
     loginComTwitter() { this.router.navigate(['tabs']); };
 

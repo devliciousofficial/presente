@@ -35,8 +35,7 @@
           <app-alerta-validacao class="" [field]="form.get('password')" error="required" message="Senha obrigatória">
           </app-alerta-validacao>
           <ion-item class="ion-no-padding" lines="none">
-            <ion-button class="text-transform-none ion-no-padding" slot="end" color="primary"
-              [disabled]="" expand="block" fill="clear" (click)="redefinirSenha()">Esqueceu a senha?</ion-button>
+            <ion-button class="text-transform-none ion-no-padding" slot="end" color="primary" expand="block" fill="clear" (click)="paginaRedefinirSenha()">Esqueceu a senha?</ion-button>
           </ion-item>
           <ion-button class="text-transform-none" type="submit" shape="round" expand="block" color="primary"
             (click)="login()">Entrar</ion-button>
