@@ -24,11 +24,11 @@ export class RedefinirPage implements OnInit {
 
    ngOnInit() {this.form = new RedefinirPageForm(this.formBuilder).createForm();}
 
-   async exibirAlerta() {
+   async exibirAlertaEmailObrigatorio() {
       const meuAlerta = await this.alertController.create({
          cssClass: 'my-custom-class',
          header: 'Erro ao enviar email.',
-         message: 'Ocorreu um erro desconhecido ao tentar enviar o email de redefinição de senha. Por favor, tente novamente mais tarde.',
+         message: 'É nesessário informar o seu email para prosseguir com a redefinição de senha.',
          buttons: ['OK']
       });
 
@@ -46,7 +46,9 @@ export class RedefinirPage implements OnInit {
             this.router.navigate(['email-redefinicao']);
          } catch (error) {
             console.error('Error while creating request to reset user password', error);
-            this.exibirAlerta();
+            if (error.code === 204){
+               this.exibirAlertaEmailObrigatorio();
+            }
          }
       })();
 
