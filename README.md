@@ -35,7 +35,7 @@
 
 ## 🧐 Sobre <a name = "about"></a>
 
-* Digite uma descrição sobre o app
+A pandemia e o isolamento social trouxeram novas formas de consumir, fazendo com que o mercado de entregas crescesse de forma intensa. Entretanto, algumas áreas não foram contempladas – como, por exemplo, a que tratamos em nosso projeto de aplicativo: a entrega de presentes. Em pesquisa informal e não-documentada, o grupo conversou com diversos segmentos sociais, profissionais e etários sobre a ideia de desenvolver um marketplace, nos moldes do iFood, focado na possibilidade de manter as relações afetivas, mesmo à distância.
 
 ## 🏁 Começando pelo começo <a name = "getting_started"></a>
 
