@@ -7,11 +7,17 @@
 
 <div align="center">
 
-[![python](https://img.shields.io/badge/Javascript-016c8c?style=f&logo=javascript&logoColor=yellow)](https://www.javascript.com/)
-[![python](https://img.shields.io/badge/ionic-016c8c?style=f&logo=ionic&logoColor=blue)](https://www.javascript.com/)
+[![javascript](https://img.shields.io/badge/Javascript-016c8c?style=f&logo=javascript&logoColor=yellow)](https://www.javascript.com/)
+[![typescript](https://img.shields.io/badge/Typescript-016c8c?style=f&logo=typescript&logoColor=blue)](https://www.typescriptlang.org/)
+[![node](https://img.shields.io/badge/NodeJS-016c8c?style=f&logo=node.js&logoColor=green)](https://nodejs.org/en/)
+[![ionic](https://img.shields.io/badge/ionic-016c8c?style=f&logo=ionic&logoColor=blue)](https://ionicframework.com/)
+[![angular](https://img.shields.io/badge/Angular-016c8c?style=f&logo=angular&logoColor=red)](https://angular.io/)
+[![android studio](https://img.shields.io/badge/Android_Studio-016c8c?style=f&logo=android-studio&logoColor=green)](https://developer.android.com/studio)
+   
+
 
 [![Status](https://img.shields.io/badge/Repo_status-WIP-orange?labelolor=black)](https://media.giphy.com/media/61XS37iBats8J3QLwF/giphy.gif)
-[![vscode](https://img.shields.io/badge/FOR_CODING-gray?style=flat&labelColor=gray&logo=visual-studio-code&logoColor=blue)](https://code.visualstudio.com/)
+[![vscode](https://img.shields.io/badge/IDE-gray?style=flat&labelColor=gray&logo=visual-studio-code&logoColor=blue)](https://code.visualstudio.com/)
 
 </div>
 
