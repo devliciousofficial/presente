@@ -28,11 +28,10 @@
 - [Deploy](#deployment)
 - [Uso](#usage)
 - [Recursos usados](#built_using)
-- [TODO](../TODO.md)
 - [Contribua](../CONTRIBUTING.md)
 - [Autores](#authors)
 - [Agradecimentos](#acknowledgement)
-
+<!--- [TODO](../TODO.md)-->
 ## 🧐 Sobre <a name = "about"></a>
 
 A pandemia e o isolamento social trouxeram novas formas de consumir, fazendo com que o mercado de entregas crescesse de forma intensa. Entretanto, algumas áreas não foram contempladas – como, por exemplo, a que tratamos em nosso projeto de aplicativo: a entrega de presentes. Em pesquisa informal e não-documentada, o grupo conversou com diversos segmentos sociais, profissionais e etários sobre a ideia de desenvolver um marketplace, nos moldes do iFood, focado na possibilidade de manter as relações afetivas, mesmo à distância.
