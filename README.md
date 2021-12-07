@@ -28,7 +28,7 @@
 - [Deploy](#deployment)
 - [Uso](#usage)
 - [Recursos usados](#built_using)
-- [Contribua](../CONTRIBUTING.md)
+- [Contribua](https://github.com/devliciousofficial/presente/blob/main/CONTRIBUTING.md)
 - [Autores](#authors)
 - [Agradecimentos](#acknowledgement)
 <!--- [TODO](../TODO.md)-->
