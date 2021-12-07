@@ -10,6 +10,7 @@
 [![javascript](https://img.shields.io/badge/Javascript-016c8c?style=f&logo=javascript&logoColor=yellow)](https://www.javascript.com/)
 [![typescript](https://img.shields.io/badge/Typescript-016c8c?style=f&logo=typescript&logoColor=blue)](https://www.typescriptlang.org/)
 [![node](https://img.shields.io/badge/NodeJS-016c8c?style=f&logo=node.js&logoColor=green)](https://nodejs.org/en/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-016c8c?style=f&logo=MongoDB&logoColor=green)](https://www.javascript.com/)
 [![ionic](https://img.shields.io/badge/ionic-016c8c?style=f&logo=ionic&logoColor=blue)](https://ionicframework.com/)
 [![angular](https://img.shields.io/badge/Angular-016c8c?style=f&logo=angular&logoColor=red)](https://angular.io/)
 [![android studio](https://img.shields.io/badge/Android_Studio-016c8c?style=f&logo=android-studio&logoColor=green)](https://developer.android.com/studio)
