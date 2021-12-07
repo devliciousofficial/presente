@@ -84,6 +84,21 @@ npm install @capacitor/core
 npm install @capacitor/cli --save-dev
 npm install -g @ionic/cli native-run cordova-res
 ```
+Para instalar o Parse Platform e junto com o Javascript SDK use o comando abaixo e depois importe o módulo antes de utiliza-lo:
+```
+npm install parse
+```
+Importando o módulo instalado:
+```
+import Parse from 'parse';
+```
+Para conectar ao seu aplicativo, é necessário executar os métodos a seguir dentro do construtor do móudulo/arquivo JS que será utilizado. Não esqueça sua APP-KEY e JS-KEY:
+```
+Parse.serverURL = 'https://parseapi.back4app.com/';
+Parse.initialize("YOUR-APP-ID", "YOUR-JS-KEY");
+```
+
+Para mais detalhes sobre a instalção do Parse server basta seguir o link: https://www.back4app.com/docs/js-framework/ionic/parse-ionic-sdk
 
 
 
