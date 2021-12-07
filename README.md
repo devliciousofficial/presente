@@ -130,7 +130,7 @@ Para publicação do App, será necessário seguir as intruções do marketplace
 
 ## ✍️ Autores <a name = "authors"></a>
 
-- [Sushila Vieira Claro](https://github.com/kylelobo) - Ideía inicial e Gerente de Projetos.
+- [Sushila Vieira Claro](https://github.com/Suskka2605) - Ideía inicial e Gerente de Projetos.
 - [Rodrigo Trindade](https://github.com/elir0d) - Desenvolvimento FullStack.
 - [Daniella Veronez](https://github.com/Daniella-2907) - UI/UX Designer.
 - [Ana Silva](https://github.com/anaflaviabsilva) - Desenvolvimento Front-end.
