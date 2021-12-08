@@ -149,9 +149,9 @@ Para publicação do App, será necessário seguir as intruções do marketplace
 - [Sushila Vieira Claro](https://github.com/Suskka2605) - Ideía inicial e Gerente de Projetos.
 - [Rodrigo Trindade](https://github.com/elir0d) - Desenvolvimento FullStack.
 - [Daniella Veronez](https://github.com/Daniella-2907) - UI/UX Designer.
-- [Ana Silva](https://github.com/anaflaviabsilva) - Desenvolvimento Front-end.
+- [Ana Flavia Bezerra](https://github.com/anaflaviabsilva) - Desenvolvimento Front-end.
 - [Juliana Siqueira](https://github.com/jusiqueirab) - Desenvolvimento Front-end.
-- [Henrique](https://github.com/Henrique28072001) - Gerente de Projetos.
+- [Henrique Camargo](https://github.com/Henrique28072001) - Gerente de Projetos.
 
 
 ## 🎉 Agradecimentos <a name = "acknowledgement"></a>
