@@ -1,51 +1,68 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonInfiniteScroll } from '@ionic/angular';
+
+import Parse from 'parse';
+import { environment } from '../../../environments/environment';
+
 @Component({
-  selector: 'app-inicio',
-  templateUrl: 'inicio.page.html',
-  styleUrls: ['inicio.page.scss']
+   selector: 'app-inicio',
+   templateUrl: 'inicio.page.html',
+   styleUrls: ['inicio.page.scss']
 })
 export class InicioPage {
    @ViewChild(IonInfiniteScroll) infiniteScroll: IonInfiniteScroll;
 
-   image = 'https://parsefiles.back4app.com/3auUTevR9wvgsYWt0BqYoQUHQV8Uz634k48WGhIk/52f81bd8776f4023805fefc18b7835ff_logo1.jpg';
-   lojas: any = [];
-   lojasPage: any = [];
-
-   private readonly offset: number = 12;
-   private index = 0;
+   data: any;
+   produtos: any;
 
    constructor() {
-      // dummie data //
-      for (let i = 0; i < 50; i++) {
-         this.lojas.push(`Item ${i + 1}`);
-      }
+      Parse.initialize(environment.APP_ID, environment.JS_KEY);
+      Parse.serverURL = 'https://parseapi.back4app.com';
 
-      this.lojasPage = this.lojas.slice(this.index, this.offset + this.index);
-      this.index += this.offset;
+      (async () => {
+         const produto = Parse.Object.extend('Produto');
+         const query = new Parse.Query(produto);
+         query.select('nome_produto', 'preco', 'descricao', 'imagem');
 
+
+         try {
+            const array = [];
+            const results = await query.find();
+            this.data = results;
+
+            for (const object of results) {
+               // Access the Parse Object attributes using the .GET method
+               const nomeProduto = object.get('nome_produto');
+               const precoProduto = object.get('preco');
+               const descricaoProduto = object.get('descricao');
+               const imagem = object.get('imagem');
+               const imagemURL= imagem.url();
+
+               array.push({
+                  imagem: imagemURL,
+                  nome: nomeProduto,
+                  descricao: descricaoProduto,
+                  preco: precoProduto,
+               });
+
+               this.produtos = array;
+            }
+
+         } catch (error) {
+            console.error('Error while fetching Produto', error);
+         }
+      })();
    }
 
    loadData(event) {
-     setTimeout(() => {
-       const lojas = this.lojas.slice(this.index, this.offset + this.index);
-       this.index += this.offset;
-
-       // eslint-disable-next-line @typescript-eslint/prefer-for-of
-       for (let i = 0; i < lojas.length; i++) {
-         this.lojasPage.push(lojas[i]);
-      }
-
-      event.target.complete();
-
-       // App logic to determine if all data is loaded
-       // and disable the infinite scroll
-      //  const data = '1234567891011';
-       if (this.lojasPage.length === 50) {
-         event.target.disabled = true;
-       }
-     }, 500);
+      setTimeout(() => {
+         // App logic to determine if all data is loaded
+         // and disable the infinite scroll
+         if (this.data.length === 10) {
+            event.target.disabled = true;
+         }
+      }, 500);
    }
- }
+}
 
 

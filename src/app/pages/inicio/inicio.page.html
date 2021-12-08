@@ -9,31 +9,31 @@
    <ion-content>
 
       <ion-list>
-         <ion-item lines="none" *ngFor="let _lojas_ of lojasPage">
+         <ion-item lines="none" *ngFor="let item of produtos">
             <ion-card>
                <ion-card-content class="ion-no-padding">
                <ion-grid fixed>
                   <ion-row>
                      <ion-col size="6">
                         <ion-thumbnail>
-                           <ion-img size="large" [src]="image"></ion-img>
+                           <ion-img size="large" [src]="item.imagem"></ion-img>
                         </ion-thumbnail>
                      </ion-col>
                      <ion-col size="6">
-                        <ion-label>Nome do produto</ion-label>
+                        <ion-label>{{item.nome}}</ion-label>
                         <ion-text color="">
-                           <p>Descricao produto</p>
+                           <p>{{item.descricao}}</p>
                         </ion-text>
                         <ion-grid class="preco" class="ion-no-padding" fixed>
                            <ion-row>
                               <ion-col  size="6">
                                  <ion-text color="primary">
-                                    <p>Preco</p>
+                                    <p>Preço</p>
                                  </ion-text>
                               </ion-col>
                               <ion-col size="6">
                                  <ion-text color="primary">
-                                    <p>R$ 2000,00</p>
+                                    <p>R$ {{item.preco}}</p>
                                  </ion-text>
                               </ion-col>
                            </ion-row>
