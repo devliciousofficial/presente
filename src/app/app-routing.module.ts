@@ -11,7 +11,11 @@ const routes: Routes = [
   { path: 'inscricao', loadChildren: () => import('./pages/inscricao/inscricao.module').then( m => m.InscricaoPageModule) },
   { path: 'redefinir', loadChildren: () => import('./pages/redefinir/redefinir.module').then( m => m.RedefinirPageModule) },
   { path: 'email-redefinicao', loadChildren: () => import('./pages/email-redefinicao/email-redefinicao.module').then( m => m.EmailRedefinicaoPageModule) },
-  { path: 'email-enviado', loadChildren: () => import('./pages/email-enviado/email-enviado.module').then( m => m.EmailEnviadoPageModule) },
+  { path: 'email-enviado', loadChildren: () => import('./pages/email-enviado/email-enviado.module').then( m => m.EmailEnviadoPageModule) },  {
+    path: 'detalhes-produto',
+    loadChildren: () => import('./pages/detalhes-produto/detalhes-produto.module').then( m => m.DetalhesProdutoPageModule)
+  },
+
 
 
 ];
