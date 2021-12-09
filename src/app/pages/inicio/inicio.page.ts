@@ -85,8 +85,9 @@ export class InicioPage implements AfterContentChecked{
                   preco: precoProduto,
                });
 
-               this.produtos = array;
             }
+
+            this.produtos = array;
 
          } catch (error) {
             console.error('Error while fetching Produto', error);
