@@ -1,13 +1,36 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-back-button></ion-back-button>
-    <ion-title slot="start">Início</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-header color="primary">
+   <ion-toolbar>
+     <ion-item lines="none">
+       <ion-label class="ion-text-center">
+         <h1>Olá, </h1>
+         <h2>{{userName}}.</h2>
+       </ion-label>
+     </ion-item>
+   </ion-toolbar>
+ </ion-header>
 
 <ion-content [fullscreen]="true">
-   <ion-content>
 
+      <ion-list-header>
+         <ion-label >Em Promoção</ion-label>
+      </ion-list-header>
+      <swiper #swiper [config]="config">
+         <ng-template swiperSlide *ngFor="let item of produtos">
+            <ion-card class='promocao'>
+               <ion-card-content class="promocao-card ion-no-padding">
+                     <ion-img size="large" [src]="item.imagem"></ion-img>
+                     <ion-text color="">
+                        <h1>{{item.nome}}</h1>
+                        <p>{{item.descricao}}</p>
+                     </ion-text>
+              </ion-card-content>
+            </ion-card>
+         </ng-template>
+      </swiper>
+
+      <ion-list-header>
+         <ion-label >Visto Recentemente</ion-label>
+       </ion-list-header>
       <ion-list>
          <ion-item lines="none" *ngFor="let item of produtos">
             <ion-card>
@@ -16,7 +39,8 @@
                   <ion-row>
                      <ion-col size="6">
                         <ion-thumbnail>
-                           <ion-img size="large" [src]="item.imagem"></ion-img>
+                           <ion-img size="large" [src]="item.imagem">
+                           </ion-img>
                         </ion-thumbnail>
                      </ion-col>
                      <ion-col size="6">
