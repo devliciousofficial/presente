@@ -161,6 +161,7 @@ Para publicação do App, será necessário seguir as intruções do marketplace
 - [Leonardo Massayuki Takuno](https://www.escavador.com/sobre/4454334/leonardo-massayuki-takuno).
 - [Marco Túlio Jeunon](https://www.escavador.com/sobre/11668038/marco-tulio-jeunon).
 - [Jose Pacheco de Almeida Prado](https://www.escavador.com/sobre/7532800/jose-pacheco-de-almeida-prado).
+- [Rafael Will Macedo](https://www.escavador.com/sobre/4862463/rafael-will-macedo-de-araujo).
 
 ### Aos Colegas de Curso:
 - [Ogyan Salatiel do Nascimento](https://www.linkedin.com/in/ogyan-salatiel-do-nascimento-80360b19a/?originalSubdomain=br).
