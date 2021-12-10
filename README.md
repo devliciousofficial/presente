@@ -35,10 +35,9 @@
 - [Deploy](#deployment)
 - [Uso](#usage)
 - [Recursos usados](#built_using)
-- [Contribua](https://github.com/devliciousofficial/presente/blob/main/CONTRIBUTING.md)
 - [Autores](#authors)
 - [Agradecimentos](#acknowledgement)
-<!--- [TODO](../TODO.md)-->
+
 ## 🧐 Sobre <a name = "about"></a>
 
 A pandemia e o isolamento social trouxeram novas formas de consumir, fazendo com que o mercado de entregas crescesse de forma intensa. Entretanto, algumas áreas não foram contempladas – como, por exemplo, a que tratamos em nosso projeto de aplicativo: a entrega de presentes. Em pesquisa informal e não-documentada, o grupo conversou com diversos segmentos sociais, profissionais e etários sobre a ideia de desenvolver um marketplace, nos moldes do iFood, focado na possibilidade de manter as relações afetivas, mesmo à distância.
@@ -46,6 +45,10 @@ A pandemia e o isolamento social trouxeram novas formas de consumir, fazendo com
 ## 🏁 Começando pelo começo <a name = "getting_started"></a>
 
 Essas instruções fornecerão a você uma cópia do projeto instalado e funcionando em sua máquina local para fins de desenvolvimento e teste.
+
+### Contribuindo com o Projeto
+
+Para contrubuir, basta seguir estas [Intruções](/CONTRIBUTING.md).
 
 ### Pré-requisitos
 
@@ -111,7 +114,7 @@ Exemplo de uso:
 ```
 ng test
 ```
-<!---
+<!---------------------------------------------
 ### Divida em testes de ponta a ponta
 
 Explain what these tests test and why
@@ -128,7 +131,7 @@ Explain what these tests test and why
 ```
 Give an example
 ```
--->
+----------------------------------------------->
 
 ## 🎈 Uso <a name="usage"></a>
 Para utilizar o aplicativo, basta criar um cadastro com uma das opções disponíveis e, após isso, já é possível navegar entre os produtos, escolher o presente, adicionar o endereço do presenteado e finalizar a compra.
