@@ -27,11 +27,11 @@
 
 - [Sobre](#about)
 - [Começando pelo começo](#getting_started)
+- [Como contribuir](#contribuiting)
 - [Deploy](#deployment)
 - [Uso](#usage)
 - [Recursos usados](#built_using)
-- [TODO](../TODO.md)
-- [Contribua](../CONTRIBUTING.md)
+- [Contribua](https://github.com/devliciousofficial/presente/blob/develop/CONTRIBUTING.md)
 - [Autores](#authors)
 - [Agradecimentos](#acknowledgement)
 
@@ -42,6 +42,9 @@
 ## 🏁 Começando pelo começo <a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+
+### Como Contribuir <a name = "contribuiting"></a>
+Para contribuir, basta seguir as seguintes instruções: [Contribuindo com o Desenvolvimento](https://github.com/devliciousofficial/presente/blob/develop/CONTRIBUTING.md)
 
 ### Pré-requisitos
 
