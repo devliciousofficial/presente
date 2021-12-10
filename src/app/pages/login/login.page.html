@@ -21,7 +21,7 @@
         <ion-card-content>
           <ion-item class="ion-no-padding">
             <ion-label position="floating">Email</ion-label>
-            <ion-input type="email" formControlName="email" placeholder="exemplo@email.com"></ion-input>
+            <ion-input [(ngModel)]="email" type="email" formControlName="email" placeholder="exemplo@email.com"></ion-input>
           </ion-item>
           <app-alerta-validacao [field]="form.get('email')" error="required" message="Email Obrigatório">
           </app-alerta-validacao>
@@ -29,14 +29,13 @@
           </app-alerta-validacao>
           <ion-item class="ion-no-padding">
             <ion-label position="floating">Senha</ion-label>
-            <ion-input class="ion-no-padding ion-text-none" type="password" formControlName="password"
+            <ion-input [(ngModel)]="password" class="ion-no-padding ion-text-none" type="password" formControlName="password"
               placeholder="Digite sua senha"></ion-input>
           </ion-item>
           <app-alerta-validacao class="" [field]="form.get('password')" error="required" message="Senha obrigatória">
           </app-alerta-validacao>
           <ion-item class="ion-no-padding" lines="none">
-            <ion-button class="text-transform-none ion-no-padding" slot="end" color="secondary"
-              [disabled]="!form.get('email').valid" expand="block" fill="clear">Esqueceu a senha?</ion-button>
+            <ion-button class="text-transform-none ion-no-padding" slot="end" color="primary" expand="block" fill="clear" (click)="paginaRedefinirSenha()">Esqueceu a senha?</ion-button>
           </ion-item>
           <ion-button class="text-transform-none" type="submit" shape="round" expand="block" color="primary"
             (click)="login()">Entrar</ion-button>
@@ -55,12 +54,12 @@
             </ion-row>
             <ion-row>
               <ion-col>
-                <ion-button class="text-transform-none" shape="round" color="facebook" expand="block" (click)="login()">
+                <ion-button class="text-transform-none" shape="round" color="facebook" expand="block" (click)="loginComFacebook()">
                   Facebook</ion-button>
                 <br />
               </ion-col>
               <ion-col>
-                <ion-button class="text-transform-none" shape="round" color="twitter" expand="block" (click)="login()">
+                <ion-button class="text-transform-none" shape="round" color="twitter" expand="block" (click)="loginComTwitter()">
                   Twitter</ion-button>
                 <br />
               </ion-col>
