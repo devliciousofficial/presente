@@ -55,6 +55,7 @@ O que você precisa instalar e como instalá-los:
  * ionic CLI
  * Capacitor
  * Parse Platform
+ * Angular CLI
 
 ### Instalação
 
