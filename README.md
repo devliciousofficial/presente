@@ -52,7 +52,7 @@ Essas instruções fornecerão a você uma cópia do projeto instalado e funcion
 O que você precisa instalar e como instalá-los:
 
  * Node.js
- * ionic CLI
+ * Ionic CLI
  * Capacitor
  * Parse Platform
  * Angular CLI
