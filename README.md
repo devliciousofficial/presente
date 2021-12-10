@@ -156,6 +156,14 @@ Para publicação do App, será necessário seguir as intruções do marketplace
 
 
 ## 🎉 Agradecimentos <a name = "acknowledgement"></a>
+### Aos Professors:
+- [Leonardo Taniguti Montovani](https://www.escavador.com/sobre/4111555/leonardo-augusto-taniguti-mantovani).  
+- [Leonardo Massayuki Takuno](https://www.escavador.com/sobre/4454334/leonardo-massayuki-takuno).
+- [Marco Túlio Jeunon](https://www.escavador.com/sobre/11668038/marco-tulio-jeunon).
+- [Jose Pacheco de Almeida Prado](https://www.escavador.com/sobre/7532800/jose-pacheco-de-almeida-prado).
 
-Este projeto não seria possível sem a ajuda de pessoas maravilhosas:
-- <a href="https://iconscout.com/icons/gift-box" target="_blank">Gift Box Flat Icon</a> by <a href="https://iconscout.com/contributors/bukeicon">Buke Icon</a> on <a href="https://iconscout.com">Iconscout</a>
+### Aos Colegas de Curso:
+- [Ogyan Salatiel do Nascimento](https://www.linkedin.com/in/ogyan-salatiel-do-nascimento-80360b19a/?originalSubdomain=br).
+- [Lucas Alves Campos](https://www.linkedin.com/in/lucasalvescampos1/?originalSubdomain=br).
+- [Bruno Kouki Matsunaga](https://www.linkedin.com/in/bruno-kouki-matsunaga-595455162/?originalSubdomain=br)
+- Fabio Maaques Arão.
