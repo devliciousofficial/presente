@@ -170,4 +170,4 @@ Para publicação do App, será necessário seguir as intruções do marketplace
 - [Ogyan Salatiel do Nascimento](https://www.linkedin.com/in/ogyan-salatiel-do-nascimento-80360b19a/?originalSubdomain=br).
 - [Lucas Alves Campos](https://www.linkedin.com/in/lucasalvescampos1/?originalSubdomain=br).
 - [Bruno Kouki Matsunaga](https://www.linkedin.com/in/bruno-kouki-matsunaga-595455162/?originalSubdomain=br)
-- Fabio Maaques Arão.
+- Fabio Marques Arão.
