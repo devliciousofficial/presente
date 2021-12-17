@@ -12,7 +12,6 @@
 [![python](https://img.shields.io/badge/ionic-016c8c?style=f&logo=ionic&logoColor=blue)](https://www.javascript.com/)
 
 [![Status](https://img.shields.io/badge/Repo_status-WIP-orange?labelolor=black)](https://media.giphy.com/media/61XS37iBats8J3QLwF/giphy.gif)
-[![Open Source](https://badgen.net/badge/Open%20Source%20/Yes%21/green?icon=https://www.vectorlogo.zone/logos/opensource/opensource-icon.svg)](https://github.com/OpenSourceOrg)
 [![vscode](https://img.shields.io/badge/FOR_CODING-gray?style=flat&labelColor=gray&logo=visual-studio-code&logoColor=blue)](https://code.visualstudio.com/)
 
 </div>
