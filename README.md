@@ -136,8 +136,8 @@ Give an example
 ## 🎈 Uso <a name="usage"></a>
 Para utilizar o aplicativo, basta criar um cadastro com uma das opções disponíveis e, após isso, já é possível navegar entre os produtos, escolher o presente, adicionar o endereço do presenteado e finalizar a compra.
 
-<!-## 🚀 Deploy <a name = "deployment"></a>
-Para publicação do App, será necessário seguir as intruções do marketplace de sua preferencia: [Android](https://developer.android.com/studio/publish?hl=pt-br) ou [iOS](https://www.apple.com/br/itunes/working-itunes/sell-content/apps/)-->
+## 🚀 Deploy <a name = "deployment"></a>
+Para publicação do App, será necessário seguir as intruções das seguintes marketplaces: [Android](https://developer.android.com/studio/publish?hl=pt-br) ou [iOS](https://www.apple.com/br/itunes/working-itunes/sell-content/apps/)
 
 ## ⛏️ Recursos usados <a name = "built_using"></a>
 
