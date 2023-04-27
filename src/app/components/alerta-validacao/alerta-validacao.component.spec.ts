@@ -24,27 +24,27 @@ describe('AlertaValidacaoComponent', () => {
     component.field = new FormGroup({anyField: new FormControl()});
     component.field.markAsTouched();
     component.field.setErrors({anyError: true});
-    component.error = "anyError";
-    
+    component.error = 'anyError';
+
     expect(component.mostrarMensagemDeErro()).toBeTruthy();
-    
+
   });
 
   it('Deveria esconder a mensagem de erro quando o campo não for tocado', () => {
-    
+
     component.field = new FormGroup({anyField: new FormControl()});
     component.field.setErrors({anyError: true});
-    component.error = "anyError";
-    
+    component.error = 'anyError';
+
     expect(component.mostrarMensagemDeErro()).toBeFalsy();
 
   });
 
   it('Deveria esconder a mensagem de erro quando o campo for tocado, as não houver erros', () => {
-    
+
     component.field = new FormGroup({anyField: new FormControl()});
     component.field.markAsTouched();
-    component.error = "anyError";
+    component.error = 'anyError';
 
     expect(component.mostrarMensagemDeErro()).toBeFalsy();
 
@@ -52,11 +52,11 @@ describe('AlertaValidacaoComponent', () => {
   });
 
   it('Deveria esconder a mensagem de erro quando o campo for tocado e tiver erro, mas o erro é diferente', () => {
-    
+
     component.field = new FormGroup({anyField: new FormControl()});
     component.field.markAsTouched();
     component.field.setErrors({anyError: true});
-    component.error = "anotherError";
+    component.error = 'anotherError';
 
     expect(component.mostrarMensagemDeErro()).toBeFalsy();
 
