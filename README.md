@@ -7,9 +7,15 @@
 
 <div align="center">
 
-[![python](https://img.shields.io/badge/Python-016c8c?style=f&logo=python&logoColor=green)](https://www.python.org/)
-[![python](https://img.shields.io/badge/Javascript-016c8c?style=f&logo=javascript&logoColor=yellow)](https://www.javascript.com/)
-[![python](https://img.shields.io/badge/ionic-016c8c?style=f&logo=ionic&logoColor=blue)](https://www.javascript.com/)
+[![javascript](https://img.shields.io/badge/Javascript-016c8c?style=f&logo=javascript&logoColor=yellow)](https://www.javascript.com/)
+[![typescript](https://img.shields.io/badge/Typescript-016c8c?style=f&logo=typescript&logoColor=blue)](https://www.typescriptlang.org/)
+[![node](https://img.shields.io/badge/NodeJS-016c8c?style=f&logo=node.js&logoColor=green)](https://nodejs.org/en/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-016c8c?style=f&logo=MongoDB&logoColor=green)](https://www.javascript.com/)
+[![ionic](https://img.shields.io/badge/ionic-016c8c?style=f&logo=ionic&logoColor=blue)](https://ionicframework.com/)
+[![angular](https://img.shields.io/badge/Angular-016c8c?style=f&logo=angular&logoColor=red)](https://angular.io/)
+[![android studio](https://img.shields.io/badge/Android_Studio-016c8c?style=f&logo=android-studio&logoColor=green)](https://developer.android.com/studio)
+   
+
 
 [![Status](https://img.shields.io/badge/Repo_status-WIP-orange?labelolor=black)](https://media.giphy.com/media/61XS37iBats8J3QLwF/giphy.gif)
 [![vscode](https://img.shields.io/badge/FOR_CODING-gray?style=flat&labelColor=gray&logo=visual-studio-code&logoColor=blue)](https://code.visualstudio.com/)
@@ -36,11 +42,15 @@
 
 ## 🧐 Sobre <a name = "about"></a>
 
-* Digite uma descrição sobre o app
+A pandemia e o isolamento social trouxeram novas formas de consumir, fazendo com que o mercado de entregas crescesse de forma intensa. Entretanto, algumas áreas não foram contempladas – como, por exemplo, a que tratamos em nosso projeto de aplicativo: a entrega de presentes. Em pesquisa informal e não-documentada, o grupo conversou com diversos segmentos sociais, profissionais e etários sobre a ideia de desenvolver um marketplace, nos moldes do iFood, focado na possibilidade de manter as relações afetivas, mesmo à distância.
 
 ## 🏁 Começando pelo começo <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+Essas instruções fornecerão a você uma cópia do projeto instalado e funcionando em sua máquina local para fins de desenvolvimento e teste.
+
+### Contribuindo com o Projeto
+
+Para contrubuir, basta seguir estas [Intruções](/CONTRIBUTING.md).
 
 ### Como Contribuir <a name = "contribuiting"></a>
 Para contribuir, basta seguir as seguintes instruções: [Contribuindo com o Desenvolvimento](https://github.com/devliciousofficial/presente/blob/develop/CONTRIBUTING.md)
@@ -50,8 +60,10 @@ Para contribuir, basta seguir as seguintes instruções: [Contribuindo com o Des
 O que você precisa instalar e como instalá-los:
 
  * Node.js
- * ionic CLI
+ * Ionic CLI
  * Capacitor
+ * Parse Platform
+ * Angular CLI
 
 ### Instalação
 
@@ -81,13 +93,33 @@ npm install @capacitor/core
 npm install @capacitor/cli --save-dev
 npm install -g @ionic/cli native-run cordova-res
 ```
+Para instalar o Parse Platform e junto com o Javascript SDK use o comando abaixo e depois importe o módulo antes de utiliza-lo:
+```
+npm install parse
+```
+Importando o módulo instalado:
+```
+import Parse from 'parse';
+```
+Para conectar ao seu aplicativo, é necessário executar os métodos a seguir dentro do construtor do móudulo/arquivo JS que será utilizado. Não esqueça sua APP-KEY e JS-KEY:
+```
+Parse.serverURL = 'https://parseapi.back4app.com/';
+Parse.initialize("YOUR-APP-ID", "YOUR-JS-KEY");
+```
+
+Para mais detalhes sobre a instalção do Parse server basta seguir o link: https://www.back4app.com/docs/js-framework/ionic/parse-ionic-sdk
 
 
 
 ## 🔧 Rodando testes <a name = "tests"></a>
 
-Explain how to run the automated tests for this system.
+Muitos comandos do Angular CLI geram um arquivo com a extensão .spec.ts. Esses são os arquivos de teste de seu projeto e você pode usar o CLI para executar todos eles e verificar se algum bug foi criado.
 
+Exemplo de uso:
+```
+ng test
+```
+<!---------------------------------------------
 ### Divida em testes de ponta a ponta
 
 Explain what these tests test and why
@@ -96,6 +128,7 @@ Explain what these tests test and why
 Give an example
 ```
 
+
 ### Estilo de codificação para os testes
 
 Explain what these tests test and why
@@ -103,32 +136,28 @@ Explain what these tests test and why
 ```
 Give an example
 ```
+----------------------------------------------->
 
 ## 🎈 Uso <a name="usage"></a>
-
-**Adicione aqui notas de como usar o sistema
+Para utilizar o aplicativo, basta criar um cadastro com uma das opções disponíveis e, após isso, já é possível navegar entre os produtos, escolher o presente, adicionar o endereço do presenteado e finalizar a compra.
 
 ## 🚀 Deploy <a name = "deployment"></a>
-
-**Adicione aqui instruções para deploy
+Para publicação do App, será necessário seguir as intruções das seguintes marketplaces: [Android](https://developer.android.com/studio/publish?hl=pt-br) ou [iOS](https://www.apple.com/br/itunes/working-itunes/sell-content/apps/)
 
 ## ⛏️ Recursos usados <a name = "built_using"></a>
 
-- [Firebase](https://firebase.google.com/) - Server/Database Framework
+- [Back4app](https://www.back4app.com/) - BaaS
 - [Ionic](https://ionicframework.com/) - Web/Native Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
-- [Android Studio](https://developer.android.com) - Native Environment
+- [NodeJs](https://nodejs.org/en/) - Gerenciado de pacotes e SDks
+- [Android Studio](https://developer.android.com) - Ambiente de desenvolvimento nativo
+- [Parse Platform](https://parseplatform.org/) - Plataforma para desenvolvimento Back-end
 
 
 ## ✍️ Autores <a name = "authors"></a>
 
-- [@sushila](https://github.com/kylelobo) - Idea & Initial work
-
-- See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Agradecimentos <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
-- <a href="https://iconscout.com/icons/gift-box" target="_blank">Gift Box Flat Icon</a> by <a href="https://iconscout.com/contributors/bukeicon">Buke Icon</a> on <a href="https://iconscout.com">Iconscout</a>
+- [Sushila Vieira Claro](https://github.com/Suskka2605) - Ideía inicial e Product Owner.
+- [Rodrigo Trindade](https://github.com/elir0d) - Desenvolvimento FullStack.
+- [Daniella Veronez](https://github.com/Daniella-2907) - UI/UX Designer.
+- [Ana Flavia Bezerra](https://github.com/anaflaviabsilva) - Desenvolvimento Front-end.
+- [Juliana Siqueira](https://github.com/jusiqueirab) - Desenvolvimento Front-end.
+- [Henrique Camargo](https://github.com/Henrique28072001) - Scrum Master.
