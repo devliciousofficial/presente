@@ -18,7 +18,7 @@
 
 
 [![Status](https://img.shields.io/badge/Repo_status-WIP-orange?labelolor=black)](https://media.giphy.com/media/61XS37iBats8J3QLwF/giphy.gif)
-[![vscode](https://img.shields.io/badge/IDE-gray?style=flat&labelColor=gray&logo=visual-studio-code&logoColor=blue)](https://code.visualstudio.com/)
+[![vscode](https://img.shields.io/badge/FOR_CODING-gray?style=flat&labelColor=gray&logo=visual-studio-code&logoColor=blue)](https://code.visualstudio.com/)
 
 </div>
 
@@ -32,9 +32,11 @@
 
 - [Sobre](#about)
 - [Começando pelo começo](#getting_started)
+- [Como contribuir](#contribuiting)
 - [Deploy](#deployment)
 - [Uso](#usage)
 - [Recursos usados](#built_using)
+- [Contribua](https://github.com/devliciousofficial/presente/blob/develop/CONTRIBUTING.md)
 - [Autores](#authors)
 - [Agradecimentos](#acknowledgement)
 
@@ -49,6 +51,9 @@ Essas instruções fornecerão a você uma cópia do projeto instalado e funcion
 ### Contribuindo com o Projeto
 
 Para contrubuir, basta seguir estas [Intruções](/CONTRIBUTING.md).
+
+### Como Contribuir <a name = "contribuiting"></a>
+Para contribuir, basta seguir as seguintes instruções: [Contribuindo com o Desenvolvimento](https://github.com/devliciousofficial/presente/blob/develop/CONTRIBUTING.md)
 
 ### Pré-requisitos
 

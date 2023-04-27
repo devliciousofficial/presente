@@ -3,10 +3,10 @@
     <br>
     <ion-item color="primary" lines="none">
       <ion-avatar slot="start">
-        <img src="https://avatars.githubusercontent.com/u/49011043?v=4" />
+         <ion-img [src]="avatar"></ion-img>
       </ion-avatar>
       <ion-label>
-        <h1 color="primary">Rodrigo Trindade</h1>
+        <h1 color="primary">{{userName}}</h1>
       </ion-label>
     </ion-item>
     <br>
@@ -23,7 +23,7 @@
 <ion-list-header>
   <ion-label >Geral</ion-label>
 </ion-list-header>
-  
+
   <ion-list expand="full">
     <ion-item>
       <ion-icon name="settings-outline"></ion-icon>
