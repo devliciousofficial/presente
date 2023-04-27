@@ -5,8 +5,11 @@
          clearIcon="close-circle" clearIcon="close-sharp" enterkeyhint="search" inputmode="text"
          placeholder="Busque um Presente!" searchIcon="search-outline" searchIcon="search-sharp"
          showCancelButton="focus" showClearButton="focus" spellcheck="true" type="search" value=""
+         autocomplete='on'
+
+         [(ngModel)]="busca"
          >
-         
+
         </ion-searchbar>
       <br>
    </ion-toolbar>
@@ -19,7 +22,95 @@
       </ion-toolbar>
    </ion-header>
 
+   <ion-list-header *ngIf="!busca">
+      <ion-label >Categorias</ion-label>
+   </ion-list-header>
+   <ion-list class="categorias" *ngIf="!busca">
+      <ion-grid>
+         <ion-row>
+           <ion-col size='6'>
+               <ion-card button (click)="categoriaOuro()">
+                  <img src="https://image.freepik.com/fotos-gratis/textura-de-ouro-brilhante-folha-amarela_38679-765.jpg" alt="">
+                  <h1>OURO</h1>
+               </ion-card>
+            </ion-col>
+           <ion-col size='6'>
+            <ion-card button (click)="categoriaPrata()">
+               <img src="https://image.freepik.com/fotos-gratis/fundo-de-papel-prata-shimmery_53876-71385.jpg" alt="">
+               <h1>PRATA</h1>
+            </ion-card>
+           </ion-col>
+         </ion-row>
+         <ion-row>
+            <ion-col size='6'>
+               <ion-card button (click)="categoriaBronze()">
+                  <img src="https://img.freepik.com/fotos-gratis/fundo-de-papel-texturizado-bronze-brilhante_53876-92782.jpg?size=626&ext=jpg" alt="">
+                  <h1>BRONZE</h1>
+               </ion-card>
+            </ion-col>
+            <ion-col size='6'>
+               <ion-card button (click)="categoriaDiamante()">
+                  <img src="https://media.istockphoto.com/photos/diamond-texture-closeup-and-kaleidoscope-top-view-of-round-gemstone-picture-id990183432" alt="">
+                  <h1>DIAMANTE</h1>
+               </ion-card>
+            </ion-col>
+         </ion-row>
+      </ion-grid>
+   </ion-list>
+
+   <ion-list-header *ngIf="!busca">
+      <ion-label >Recomendados</ion-label>
+   </ion-list-header>
+
+   <ion-list-header *ngIf="busca">
+      <ion-label >Resultado</ion-label>
+   </ion-list-header>
+
+   <ion-list>
+      <ion-item lines="none" *ngFor="let item of produtos | filter: busca">
+         <ion-card>
+            <ion-card-content class="ion-no-padding">
+            <ion-grid fixed>
+               <ion-row>
+                  <ion-col size="6">
+                     <ion-thumbnail>
+                        <ion-img size="large" [src]="item.imagem">
+                        </ion-img>
+                     </ion-thumbnail>
+                  </ion-col>
+                  <ion-col size="6">
+                     <ion-label>{{item.nome}}</ion-label>
+                     <ion-text color="">
+                        <p>{{item.descricao}}</p>
+                     </ion-text>
+                     <ion-grid class="preco" class="ion-no-padding" fixed>
+                        <ion-row>
+                           <ion-col  size="6">
+                              <ion-text color="primary">
+                                 <p>Preço</p>
+                              </ion-text>
+                           </ion-col>
+                           <ion-col size="6">
+                              <ion-text color="primary">
+                                 <p>R$ {{item.preco}}</p>
+                              </ion-text>
+                           </ion-col>
+                        </ion-row>
+                     </ion-grid>
+                  <ion-icon size="" name="star-outline"></ion-icon>
+                  <ion-icon size="" name="star-outline"></ion-icon>
+                  <ion-icon size="" name="star-outline"></ion-icon>
+                  <ion-icon size="" name="star-outline"></ion-icon>
+                  <ion-icon size="" name="star-outline"></ion-icon>
+                  </ion-col>
+               </ion-row>
+            </ion-grid>
+           </ion-card-content>
+         </ion-card>
+      </ion-item>
+   </ion-list>
+<!--
    <iframe width="600" height="100%" style="border:0" loading="lazy" allowfullscreen
-      src="https://www.google.com/maps/embed/v1/view?zoom=16&center=-23.5276%2C-46.6786&key=AIzaSyCX0V9eWhKN_-iGwIrhBCocDVjwijoEsz0"></iframe>
+      src="https://www.google.com/maps/embed/v1/view?zoom=16&center=-23.5276%2C-46.6786&key=AIzaSyCX0V9eWhKN_-iGwIrhBCocDVjwijoEsz0"></iframe> -->
 
 </ion-content>

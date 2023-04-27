@@ -1,23 +1,69 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title slot="start">Pedidos</ion-title>
+    <ion-title class="ion-text-center">Meus Pedidos</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Pedidos</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
+<ion-list *ngFor="let pedido of pedidos">
   <ion-card>
+     <ion-card-content>
+      <ion-list>
+         <ion-item button>
+            <ion-avatar>
+               <img [src]="pedido.logo" />
+            </ion-avatar>
+            <ion-label class="padding-left">{{pedido.loja}}</ion-label>
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+         </ion-item>
+         <ion-item>
+            <ion-grid >
+               <ion-row>
+                  <ion-col size="11">
+                     <ion-text>
+                        <p>Código do Pedido - {{pedido.numeroPedido}}</p>
+                     </ion-text>
+                  </ion-col>
+                  <ion-col size="1">
+                     <ion-icon class="align-left" name="checkmark-circle-outline" color="success"></ion-icon>
+                  </ion-col>
+               </ion-row>
+               <ion-row>
+                  <ion-col size="6">
+                     <ion-text>
+                        <p>{{pedido.produto}}</p>
+                     </ion-text>
+                  </ion-col>
+                  <ion-col size="6">
+                     <ion-text class="align-left">
+                        <p>{{pedido.quantidade}}</p>
+                     </ion-text>
+                  </ion-col>
+               </ion-row>
+            </ion-grid>
+         </ion-item>
+         <ion-item lines='none'>
+            <ion-grid>
+               <ion-row>
+                  <ion-col size="6">Total</ion-col>
+                  <ion-col size="6">
+                     <ion-text class="align-left">R$ {{pedido.total}}</ion-text>
+                  </ion-col>
+               </ion-row>
+            </ion-grid>
+         </ion-item>
+      </ion-list>
+     </ion-card-content>
+  </ion-card>
+</ion-list>
+
+  <!-- <ion-card>
     <ion-card-header>
       <img src="https://img.elo7.com.br/product/main/2135B2D/chaveiro-ursinho-da-ursal-ursal.jpg" style="width: 100%; height:200px;"/>
       <ion-card-subtitle>Número do pedido: URSS1922</ion-card-subtitle>
       <ion-card-title>Urso de pelúcia Comunista</ion-card-title>
     </ion-card-header>
-  
+
     <ion-card-content>
         <p>
           URSAL, ou "União das Republiquetas Socialistas da América Latina", é um terrível plano de dominação em massa e lavagem-cerebral idealizado pela Globo,
@@ -39,7 +85,7 @@
       <ion-card-subtitle>Número do pedido: URSS1917</ion-card-subtitle>
       <ion-card-title>Foice e Martelo</ion-card-title>
     </ion-card-header>
-  
+
     <ion-card-content>
         <p>
           Foice e martelo são símbolos que representam a classe trabalhadora — o trabalho agrícola e o trabalho industrial, respectivamente. Entretanto, o emblema é mais conhecido por ter sido
@@ -53,5 +99,5 @@
           </ion-buttons>
         </ion-item>
     </ion-card-content>
-  </ion-card>
+  </ion-card> -->
 </ion-content>

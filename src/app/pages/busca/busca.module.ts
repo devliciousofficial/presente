@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { BuscaPage } from './busca.page';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 import { BuscaPageRoutingModule } from './busca-routing.module';
 
@@ -12,7 +13,8 @@ import { BuscaPageRoutingModule } from './busca-routing.module';
     IonicModule,
     CommonModule,
     FormsModule,
-    BuscaPageRoutingModule
+    BuscaPageRoutingModule,
+    Ng2SearchPipeModule
   ],
   declarations: [BuscaPage]
 })
