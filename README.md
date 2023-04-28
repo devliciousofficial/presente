@@ -107,7 +107,7 @@ Parse.serverURL = 'https://parseapi.back4app.com/';
 Parse.initialize("YOUR-APP-ID", "YOUR-JS-KEY");
 ```
 
-Para mais detalhes sobre a instalção do Parse server basta seguir o link: https://www.back4app.com/docs/js-framework/ionic/parse-ionic-sdk
+Para mais detalhes sobre a instalação do Parse server basta seguir o link: https://www.back4app.com/docs/js-framework/ionic/parse-ionic-sdk
 
 
 
