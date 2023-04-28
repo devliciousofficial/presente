@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { AlterarSenhaPageRoutingModule } from './alterar-senha-routing.module';
+import { DetalhesProdutoPageRoutingModule } from './detalhes-produto-routing.module';
 
-import { AlterarSenhaPage } from './alterar-senha.page';
+import { DetalhesProdutoPage } from './detalhes-produto.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AlterarSenhaPageRoutingModule
+    DetalhesProdutoPageRoutingModule
   ],
-  declarations: [AlterarSenhaPage]
+  declarations: [DetalhesProdutoPage]
 })
-export class AlterarSenhaPageModule {}
+export class DetalhesProdutoPageModule {}
