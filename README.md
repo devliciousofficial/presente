@@ -44,6 +44,35 @@
 
 A pandemia e o isolamento social trouxeram novas formas de consumir, fazendo com que o mercado de entregas crescesse de forma intensa. Entretanto, algumas áreas não foram contempladas – como, por exemplo, a que tratamos em nosso projeto de aplicativo: a entrega de presentes. Em pesquisa informal e não-documentada, o grupo conversou com diversos segmentos sociais, profissionais e etários sobre a ideia de desenvolver um marketplace, nos moldes do iFood, focado na possibilidade de manter as relações afetivas, mesmo à distância.
 
+## Telas
+### Login
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=700px height=300px src="https://raw.githubusercontent.com/devliciouofficial/assets/main/img/Picture1.png" alt="Login"></a>
+</p>
+
+### Tela Principal (home)
+
+<p align="center">
+<a align="left"><img width=auto height=auto src="https://raw.githubusercontent.com/devliciouofficial/assets/main/img/Picture3.png" alt="Home"><a/>
+<img width=auto height=auto src="https://raw.githubusercontent.com/devliciouofficial/assets/main/img/Picture4.png" alt="Home">
+<p/>
+
+### Produtos
+<p align="center">
+<a align="left"><img width=auto height=auto src="https://raw.githubusercontent.com/devliciouofficial/assets/main/img/Picture5.png" alt="Home"><a/>
+<img width=auto height=343 src="https://raw.githubusercontent.com/devliciouofficial/assets/main/img/Picture6.png" alt="Produtos">
+<p/>
+
+### Finalizar Compra
+<p align="center">
+<a align="left"><img width=auto height=343 src="https://raw.githubusercontent.com/devliciouofficial/assets/main/img/Picture7.png" alt="Home"><a/>
+<img width=auto height=343 src="https://raw.githubusercontent.com/devliciouofficial/assets/main/img/Picture8.png" alt="Compra">
+<p/>
+
+
+
+
 ## 🏁 Começando pelo começo <a name = "getting_started"></a>
 
 Essas instruções fornecerão a você uma cópia do projeto instalado e funcionando em sua máquina local para fins de desenvolvimento e teste.
